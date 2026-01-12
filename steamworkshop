@@ -1,0 +1,12 @@
+How to install Steam Workshop mods on a Palworld Dedicated Server
+
+Downloading Workshop Content via SteamCMD:
+
+Find IDs: Go to the Palworld Steam Workshop page (steamcommunity.com/app/1623730/workshop) and find the Item or Collection ID from the URL.
+Use Commands: Run steamcmd.exe again with these commands (replace IDs).
+
+workshop_download_item <AppID_Palworld> <ItemID> 
+(e.g., workshop_download_item 1623730 31241234)
+
+workshop_download_collection <AppID_Palworld> <CollectionID> 
+(e.g., workshop_download_collection 1623730 1234567890)
