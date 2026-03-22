@@ -1,18 +1,118 @@
-/givestats and /givemestats no longer cause crashes.
-/delitem with Amount=0 now shows item count
-/givestats and /givemestats notify target players.
-/givestats default Amount is now 0 (displays unused points).
-/settime <hour> added (values: 0-23, day, night).
-/exportguilds
-/spectate added (toggle spectate mode). You can trigger spectate mode with shortcut \ (only Admin).
-/spawnpal <PalID> [X] [Y] [Z] [Level=1] added. (RCON requires coordinates.)
-/spawnpal_j <PalTemplate> [X] [Y] [Z] added. (RCON requires coordinates.)
-/renameplayer <UserID> <NewName> 
-/giveegg <UserID> <EggID> <PalID> [Level=1] 
-/givemeegg <EggID> <PalID> [Level=1] 
-/giveegg_j <UserID> <EggID> <PalTemplate> [Level=1] 
-/givemeegg_j <EggID> <PalTemplate> [Level=1] 
-/getnearestbase
-/gotonearestbase
-/killnearestbase
+# PalDefender (formerly PalGuard) - Latest Command Reference
 
+Extracted from commands.txt, showing only the latest syntax as of v1.4.3 (June 27, 2025).
+
+Note: The tool was renamed from "PalGuard" to "PalDefender" in v1.1.6.2495 due to DMCA. UserIDs now require platform prefix: steam_XXXXXXX or gdk_XXXXXXX.
+
+
+## Teleportation
+
+/tp <X> <Y> [Z]  -  Teleport yourself to map coordinates (Z optional)
+/tp <UserId>  -  Teleport yourself to a player
+/tp home  -  Teleport to your nearest BaseCamp
+/tp oilrig  -  Teleport to nearest OilRig
+/tp oilrig:Lv30  -  Teleport to specific OilRig (Lv30, Lv55, Lv60)
+/tp <UserID1> <UserID2>  -  Teleport user 1 to user 2 (RCON supported)
+/tp <UserID> <X> <Y> <Z>  -  Teleport a player to coordinates
+/tp <UserID> home  -  Teleport a player to their closest base
+/tp <UserID> oilrig  -  Teleport a player to closest oilrig
+
+
+## Player Management
+
+/kick <UserId>  -  Kick a player
+/ban <UserId>  -  Ban a player (formerly /banid)
+/ipban <UserId>  -  IP ban a player (formerly /ipbanid)
+/banip <IP>  -  Ban a specific IP (formerly /ipban_ip)
+/unbanip <IP>  -  Remove an IP from ban list (formerly /unban_ip)
+/setadmin <UserId>  -  Temporarily grant/revoke admin from a player
+/getip <UserId>  -  Get the IP of an online player
+/renameplayer <UserID> <NewName>  -  Rename an online player
+/spectate  -  Toggle spectate mode (shortcut: \ key, admin only)
+/godmode [on/off]  -  Toggle invulnerability, one-shot (if allowAdminCheats), no food/durability loss
+/adminlogin  -  Alias for /adminpassword
+/adminlogout  -  Log out of admin mode
+
+
+## Item Commands
+
+/give <UserId> <ItemID> <Amount>  -  Give a player items
+/giveme <ItemID> <Amount>  -  Give yourself items
+/giveitems ...  -  Give multiple items (added v1.1199)
+/delitem <UserId> <ItemID> <Amount>  -  Remove items from player inventory. Amount=0 shows count without removing
+/delitems ...  -  Delete multiple items (added v1.1199)
+/give_relic <UserId> <Amount>  -  Give Lifmunk Effigies
+/giveme_relic [Count]  -  Give yourself Lifmunk Effigies (negative to subtract)
+/clearinv <UserID> [Container:Array]  -  Clear player inventory. Containers: items, keyitems, armor, weapons, food, dropslot, or all
+
+
+## Experience & Stats
+
+/give_exp <UserId> <Amount>  -  Give experience to a player (gives in small radius around player)
+/givestats <UserId> <numStats>  -  Give stat points to a player (default 0 = displays unused points)
+/givemestats <numStats>  -  Give yourself stat points
+
+
+## Technology
+
+/givetech <UserId> [Count]  -  Give Technology Points (negative to subtract)
+/givemetech [Count]  -  Give yourself Technology Points (negative to subtract)
+/givebosstech <UserId> [Count]  -  Give Ancient Technology Points (negative to subtract)
+/givemebosstech [Count]  -  Give yourself Ancient Technology Points (negative to subtract)
+/learntech <UserID> <TechID>  -  Let a player learn a technology (TechID can be "all")
+/unlearntech <UserID> <TechID>  -  Let a player forget a technology (TechID can be "all")
+/gettechids  -  List all available tech IDs (RCON gets JSON output)
+
+
+## Pal Commands
+
+/givepal <UserId> <PalID> [Level]  -  Give a Pal (Level defaults to 1, random stats/passives)
+/givemepal <PalID> [Level]  -  Give yourself a Pal (Level defaults to 1)
+/givepal_j <UserId> <PalTemplate>  -  Give Pal from PalTemplate JSON (supports SkinId)
+/givemepal_j <PalTemplate>  -  Give yourself a Pal from PalTemplate JSON
+/spawnpal <PalID> [X] [Y] [Z] [Level=1]  -  Spawn a wild Pal (RCON requires coordinates)
+/spawnpal_j <PalTemplate> [X] [Y] [Z]  -  Spawn a wild Pal from PalTemplate (RCON requires coordinates)
+/deletepals ...  -  Delete pals (added v1.1199)
+/exportpals [UserId]  -  Export equipped Pals to PalDefender/Pals/Templates/ folder
+/removedroppedpals  -  Remove Pals dropped on the ground
+/jetragon  -  Give yourself an admin Jetragon (max level, fast)
+/catwaifu  -  Give yourself an admin Cat Waifu (buffs character stats, max level)
+
+
+## Egg Commands
+
+/giveegg <UserID> <EggID> <PalID> [Level=1]  -  Give a player an egg with specific Pal inside
+/givemeegg <EggID> <PalID> [Level=1]  -  Give yourself an egg
+/giveegg_j <UserID> <EggID> <PalTemplate> [Level=1]  -  Give egg using PalTemplate
+/givemeegg_j <EggID> <PalTemplate> [Level=1]  -  Give yourself egg using PalTemplate
+
+
+## Base & Guild Commands
+
+/getnearestbase  -  Shows guild name and UID of nearest base (uses map coords)
+/gotonearestbase  -  Teleport to nearest base (uses map coords)
+/killnearestbase  -  Destroy nearest base (uses map coords, use with caution)
+/setguildleader ...  -  Set guild leader (added v1.1199)
+/exportguilds  -  Export guild data (includes MapPosition, WorldPosition, LastOnlineTicks, LastOnlineUnix, GuildChest, Pal Labor Research Lab, Expeditions)
+
+
+## OilRig Management
+
+/resetoilrig <oilrig>  -  Reset OilRig boxes/enemies. Options: lv30, lv55, lv60, all
+
+
+## Server & Utility
+
+/pgbroadcast <message>  -  Broadcast message (supports spaces, unlike vanilla)
+/alert <message>  -  Show big red important text (like meteor text). Use \n for multi-lines
+/settime <hour>  -  Set time of day (values: 0-23, day, night)
+/reloadcfg  -  Reload PalDefender config and refreshes Palworld banlist
+/getrconcmds  -  Get all RCON available commands and argument counts
+/getskinids  -  List all available Pal Skin IDs (RCON gets JSON output, formerly /skins)
+
+
+## Whitelist Commands
+
+/whitelist_add <UserId>  -  Add to whitelist (supports IP with wildcards: 75.115.*.*)
+/whitelist_remove <UserId>  -  Remove from whitelist
+/whitelist_get  -  Get full list of whitelisted players
