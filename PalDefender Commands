@@ -1,120 +1,287 @@
-https://github.com/Ultimeit/PalDefender/blob/main/docs/en/Commands/index.md
+Here is the combined and updated PalDefender command reference. I’ve merged the latest syntax rules and new commands from v1.4.3 into the detailed layout, creating a clean, comprehensive document you can easily drop right into the xDREAM server wiki or community documentation.
 
-# PalDefender (formerly PalGuard) - Latest Command Reference
+***
 
-Extracted from commands.txt, showing only the latest syntax as of v1.4.3 (June 27, 2025).
+# PalDefender (formerly PalGuard) - Command Reference
+**Latest version:** v1.4.3 (June 27, 2025)
 
-Note: The tool was renamed from "PalGuard" to "PalDefender" in v1.1.6.2495 due to DMCA. UserIDs now require platform prefix: steam_XXXXXXX or gdk_XXXXXXX.
+**Important Notes:**
+* Due to DMCA, the tool was renamed from "PalGuard" to "PalDefender" (as of v1.1.6.2495).
+* **UserIDs now require a platform prefix:** `steam_XXXXXXX` or `gdk_XXXXXXX`.
+* Currently, there are no commands that non-admin players can use. All commands are restricted to Admin, Chat (Admin logged in), or RCON.
 
+## Command Syntax
+`/command_name <required_argument> [optional_argument={?}]`
 
-## Teleportation
+* `<required_argument>` → Must be included.
+* `[optional_argument={?}]` → Can be omitted. The `{?}` indicates the default value used when omitted.
 
-/tp <X> <Y> [Z]  -  Teleport yourself to map coordinates (Z optional)
-/tp <UserId>  -  Teleport yourself to a player
-/tp home  -  Teleport to your nearest BaseCamp
-/tp oilrig  -  Teleport to nearest OilRig
-/tp oilrig:Lv30  -  Teleport to specific OilRig (Lv30, Lv55, Lv60)
-/tp <UserID1> <UserID2>  -  Teleport user 1 to user 2 (RCON supported)
-/tp <UserID> <X> <Y> <Z>  -  Teleport a player to coordinates
-/tp <UserID> home  -  Teleport a player to their closest base
-/tp <UserID> oilrig  -  Teleport a player to closest oilrig
+---
 
+## 🌍 Server & Utility Commands
 
-## Player Management
+### `/reloadcfg`
+**Description:** Reloads PalDefender configuration (`Config.json`, `whitelist.json`) and refreshes the Palworld banlist (`banlist.txt`).
+**Arguments:** None
+**Permissions:** `Chat`, `RCON`, `Admin`
 
-/kick <UserId>  -  Kick a player
-/ban <UserId>  -  Ban a player (formerly /banid)
-/ipban <UserId>  -  IP ban a player (formerly /ipbanid)
-/banip <IP>  -  Ban a specific IP (formerly /ipban_ip)
-/unbanip <IP>  -  Remove an IP from ban list (formerly /unban_ip)
-/setadmin <UserId>  -  Temporarily grant/revoke admin from a player
-/getip <UserId>  -  Get the IP of an online player
-/renameplayer <UserID> <NewName>  -  Rename an online player
-/spectate  -  Toggle spectate mode (shortcut: \ key, admin only)
-/godmode [on/off]  -  Toggle invulnerability, one-shot (if allowAdminCheats), no food/durability loss
-/adminlogin  -  Alias for /adminpassword
-/adminlogout  -  Log out of admin mode
+### `/pgbroadcast`
+**Description:** Sends a message to all players on the server. Unlike the vanilla broadcast, this supports spaces.
+**Syntax:** `/pgbroadcast <message>`
+**Permissions:** `Chat`, `RCON`, `Admin`
+**Example:** `/pgbroadcast Server will restart soon.`
 
+### `/alert`
+**Description:** Shows big, red, important text on everyone's screen (similar to meteor text). Use `\n` for multi-lines.
+**Syntax:** `/alert <message>`
+**Permissions:** `Chat`, `RCON`, `Admin`
 
-## Item Commands
+### `/send`
+**Description:** Sends a specific type of message to a specific player.
+**Syntax:** `/send <type> <UserId> <Message>`
+**Arguments:**
+* `<type>`: `msg` (chat), `log` (white, quick), `ilog` (blue, longer), `vilog` (blue, extremely long).
+**Permissions:** `Chat`, `RCON`, `Admin`
 
-/give <UserId> <ItemID> <Amount>  -  Give a player items
-/giveme <ItemID> <Amount>  -  Give yourself items
-/giveitems ...  -  Give multiple items (added v1.1199)
-/delitem <UserId> <ItemID> <Amount>  -  Remove items from player inventory. Amount=0 shows count without removing
-/delitems ...  -  Delete multiple items (added v1.1199)
-/give_relic <UserId> <Amount>  -  Give Lifmunk Effigies
-/giveme_relic [Count]  -  Give yourself Lifmunk Effigies (negative to subtract)
-/clearinv <UserID> [Container:Array]  -  Clear player inventory. Containers: items, keyitems, armor, weapons, food, dropslot, or all
+### `/settime`
+**Description:** Sets the time of day.
+**Syntax:** `/settime <hour>`
+**Arguments:** `0-23`, `day`, or `night`.
+**Permissions:** `Chat`, `RCON`, `Admin`
 
+### `/adminlogin` & `/adminlogout`
+**Description:** Logs you into or out of admin mode. `/adminlogin` is an alias for `/adminpassword`.
+**Syntax:** `/adminlogin <password>` | `/adminlogout`
+**Permissions:** `Chat`, `Admin`
 
-## Experience & Stats
+### `/addadminip`
+**Description:** Adds an IP address to the admin whitelist.
+**Syntax:** `/addadminip <IP>`
+**Permissions:** `Chat`, `RCON`, `Admin`
 
-/give_exp <UserId> <Amount>  -  Give experience to a player (gives in small radius around player)
-/givestats <UserId> <numStats>  -  Give stat points to a player (default 0 = displays unused points)
-/givemestats <numStats>  -  Give yourself stat points
+### `/iwantplayerlist`
+**Description:** Enables the in-game player list overlay (press ESC to view Player UIDs and UserIds).
+**Permissions:** `Chat`, `RCON`, `Admin`
 
+### `/getrconcmds`
+**Description:** Returns a list of all available RCON commands and their argument counts.
+**Permissions:** `RCON`
 
-## Technology
+### `/getskinids` (formerly `/skins`)
+**Description:** Returns a list of all available Pal Skin IDs. RCON receives JSON output.
+**Permissions:** `Chat`, `RCON`, `Admin`
 
-/givetech <UserId> [Count]  -  Give Technology Points (negative to subtract)
-/givemetech [Count]  -  Give yourself Technology Points (negative to subtract)
-/givebosstech <UserId> [Count]  -  Give Ancient Technology Points (negative to subtract)
-/givemebosstech [Count]  -  Give yourself Ancient Technology Points (negative to subtract)
-/learntech <UserID> <TechID>  -  Let a player learn a technology (TechID can be "all")
-/unlearntech <UserID> <TechID>  -  Let a player forget a technology (TechID can be "all")
-/gettechids  -  List all available tech IDs (RCON gets JSON output)
+### `/gettechids`
+**Description:** Returns a list of all available technology IDs. RCON receives JSON output.
+**Permissions:** `Chat`, `RCON`, `Admin`
 
+---
 
-## Pal Commands
+## 🛡️ Player Management & Moderation
 
-/givepal <UserId> <PalID> [Level]  -  Give a Pal (Level defaults to 1, random stats/passives)
-/givemepal <PalID> [Level]  -  Give yourself a Pal (Level defaults to 1)
-/givepal_j <UserId> <PalTemplate>  -  Give Pal from PalTemplate JSON (supports SkinId)
-/givemepal_j <PalTemplate>  -  Give yourself a Pal from PalTemplate JSON
-/spawnpal <PalID> [X] [Y] [Z] [Level=1]  -  Spawn a wild Pal (RCON requires coordinates)
-/spawnpal_j <PalTemplate> [X] [Y] [Z]  -  Spawn a wild Pal from PalTemplate (RCON requires coordinates)
-/deletepals ...  -  Delete pals (added v1.1199)
-/exportpals [UserId]  -  Export equipped Pals to PalDefender/Pals/Templates/ folder
-/removedroppedpals  -  Remove Pals dropped on the ground
-/jetragon  -  Give yourself an admin Jetragon (max level, fast)
-/catwaifu  -  Give yourself an admin Cat Waifu (buffs character stats, max level)
+### `/kick`
+**Description:** Kicks a player.
+**Syntax:** `/kick <UserId> [Reason="Kicked by Admin."]`
+**Permissions:** `Chat`, `RCON`, `Admin`
 
+### `/ban` (formerly `/banid`)
+**Description:** Bans and kicks a player from the server.
+**Syntax:** `/ban <UserId> [Reason="Banned by Admin."]`
+**Permissions:** `Chat`, `RCON`, `Admin`
 
-## Egg Commands
+### `/ipban` (formerly `/ipbanid`)
+**Description:** Bans a player's IP address and kicks them.
+**Syntax:** `/ipban <UserId> [Reason="Banned by Admin."]`
+**Permissions:** `Chat`, `RCON`, `Admin`
 
-/giveegg <UserID> <EggID> <PalID> [Level=1]  -  Give a player an egg with specific Pal inside
-/givemeegg <EggID> <PalID> [Level=1]  -  Give yourself an egg
-/giveegg_j <UserID> <EggID> <PalTemplate> [Level=1]  -  Give egg using PalTemplate
-/givemeegg_j <EggID> <PalTemplate> [Level=1]  -  Give yourself egg using PalTemplate
+### `/banip` & `/unbanip` (formerly `/ipban_ip` & `/unban_ip`)
+**Description:** Bans or unbans a specific IP address directly.
+**Syntax:** `/banip <IP>` | `/unbanip <IP>`
+**Permissions:** `Chat`, `RCON`, `Admin`
 
+### `/getip`
+**Description:** Gets the IP address of an online player.
+**Syntax:** `/getip <UserId>`
+**Permissions:** `Chat`, `RCON`, `Admin`
 
-## Base & Guild Commands
+### `/setadmin`
+**Description:** Temporarily grants or revokes admin privileges for a player.
+**Syntax:** `/setadmin <UserId>`
+**Permissions:** `Chat`, `RCON`, `Admin`
 
-/getnearestbase  -  Shows guild name and UID of nearest base (uses map coords)
-/gotonearestbase  -  Teleport to nearest base (uses map coords)
-/killnearestbase  -  Destroy nearest base (uses map coords, use with caution)
-/setguildleader ...  -  Set guild leader (added v1.1199)
-/exportguilds  -  Export guild data (includes MapPosition, WorldPosition, LastOnlineTicks, LastOnlineUnix, GuildChest, Pal Labor Research Lab, Expeditions)
+### `/renameplayer`
+**Description:** Renames an online player's nickname.
+**Syntax:** `/renameplayer <UserID> <NewName>`
+**Permissions:** `Chat`, `RCON`, `Admin`
 
+### `/spectate`
+**Description:** Toggles spectate mode (Shortcut: `\` key, admin only).
+**Permissions:** `Chat`, `Admin`
 
-## OilRig Management
+### `/godmode`
+**Description:** Toggles invulnerability, status effect immunity, infinite food/durability, and (if `allowAdminCheats` is on) one-shot capabilities.
+**Syntax:** `/godmode [on/off]`
+**Permissions:** `Chat`, `Admin`
 
-/resetoilrig <oilrig>  -  Reset OilRig boxes/enemies. Options: lv30, lv55, lv60, all
+### Whitelist Commands
+* `/whitelist_add <UserId>`: Adds to whitelist (supports IP with wildcards: `75.115.*.*`).
+* `/whitelist_remove <UserId>`: Removes from whitelist.
+* `/whitelist_get`: Retrieves the full list of whitelisted players.
 
+---
 
-## Server & Utility
+## 📍 Teleportation & Movement
 
-/pgbroadcast <message>  -  Broadcast message (supports spaces, unlike vanilla)
-/alert <message>  -  Show big red important text (like meteor text). Use \n for multi-lines
-/settime <hour>  -  Set time of day (values: 0-23, day, night)
-/reloadcfg  -  Reload PalDefender config and refreshes Palworld banlist
-/getrconcmds  -  Get all RCON available commands and argument counts
-/getskinids  -  List all available Pal Skin IDs (RCON gets JSON output, formerly /skins)
+### `/tp`
+**Description:** Highly versatile teleport command for moving players, self, or reaching POIs.
+**Syntax Variations:**
+* `/tp <X> <Y> [Z]` - Teleport yourself to map coordinates.
+* `/tp <UserId>` - Teleport yourself to a player.
+* `/tp home` - Teleport to your nearest BaseCamp.
+* `/tp oilrig` - Teleport to the nearest OilRig.
+* `/tp oilrig:Lv30` - Teleport to a specific OilRig (`Lv30`, `Lv55`, `Lv60`).
+* `/tp <UserID1> <UserID2>` - Teleport User 1 to User 2 (RCON supported).
+* `/tp <UserID> <X> <Y> <Z>` - Teleport a player to coordinates.
+* `/tp <UserID> home` - Teleport a player to their closest base.
+* `/tp <UserID> oilrig` - Teleport a player to closest OilRig.
+**Permissions:** `Chat`, `RCON`, `Admin`
 
+### `/getpos`
+**Description:** Gets current world position. Useful for teleporting/summoning.
+**Syntax:** `/getpos [UserId]`
+**Permissions:** `Chat`, `RCON`, `Admin`
 
-## Whitelist Commands
+---
 
-/whitelist_add <UserId>  -  Add to whitelist (supports IP with wildcards: 75.115.*.*)
-/whitelist_remove <UserId>  -  Remove from whitelist
-/whitelist_get  -  Get full list of whitelisted players
+## 🏰 Base, Guild & OilRig Operations
+
+### `/getnearestbase`
+**Description:** Shows the guild name and UID of the nearest base using map coordinates. RCON requires X, Y, Z.
+**Syntax:** `/getnearestbase [X] [Y] [Z]`
+**Permissions:** `Chat`, `RCON`, `Admin`
+
+### `/gotonearestbase`
+**Description:** Teleports you to the nearest base.
+**Syntax:** `/gotonearestbase [X] [Y] [Z]`
+**Permissions:** `Chat`, `Admin`
+
+### `/killnearestbase`
+**Description:** Destroys the nearest base. **Use with caution!**
+**Syntax:** `/killnearestbase [X] [Y] [Z]`
+**Permissions:** `Chat`, `RCON`, `Admin`
+
+### `/setguildleader`
+**Description:** Sets the target player as the leader of their current guild.
+**Syntax:** `/setguildleader <UserId>`
+**Permissions:** `Chat`, `RCON`, `Admin`
+
+### `/exportguilds`
+**Description:** Exports guild data (Map/World positions, GuildChest, Expeditions, etc.) to `guildexport.json`.
+**Permissions:** `Chat`, `RCON`, `Admin`
+
+### `/resetoilrig`
+**Description:** Resets OilRig boxes and enemies.
+**Syntax:** `/resetoilrig <oilrig>`
+**Arguments:** `lv30`, `lv55`, `lv60`, or `all`.
+**Permissions:** `Chat`, `RCON`, `Admin`
+
+---
+
+## 🎒 Items & Inventory
+
+### `/give` & `/giveme`
+**Description:** Gives items to a player or yourself.
+**Syntax:** `/give <UserId> <ItemID> [Amount=1]` | `/giveme <ItemID> [Amount=1]`
+**Permissions:** `Chat`, `RCON`, `Admin` (give) | `Chat`, `Admin` (giveme)
+
+### `/giveitems`
+**Description:** Gives multiple items in one command separated by spaces, with amounts separated by colons.
+**Syntax:** `/giveitems <UserId> <ItemId>[:<Amount>] ...`
+**Example:** `/giveitems steam_123 Sword:2 Shield:1`
+**Permissions:** `Chat`, `RCON`, `Admin`
+
+### `/delitem` & `/delitems`
+**Description:** Removes items from a player's inventory. Setting amount to `0` shows the count without deleting. Use `all` to delete all occurrences.
+**Syntax:** `/delitem <UserId> <ItemID> <Amount>` | `/delitems <UserId> <ItemId>[:<Amount>] ...`
+**Permissions:** `Chat`, `RCON`, `Admin`
+
+### `/give_relic` & `/giveme_relic`
+**Description:** Gives Lifmunk Effigies (use a negative number to subtract).
+**Syntax:** `/give_relic <UserId> <Amount>` | `/giveme_relic [Amount]`
+**Permissions:** `Chat`, `RCON`, `Admin`
+
+### `/clearinv`
+**Description:** Clears specific containers from a player's inventory.
+**Syntax:** `/clearinv <UserID> [Container:Array]`
+**Arguments:** `items`, `keyitems`, `armor`, `weapons`, `food`, `dropslot`, or `all`.
+**Permissions:** `Chat`, `RCON`, `Admin`
+
+---
+
+## 🐾 Pals & Eggs
+
+### `/givepal` & `/givemepal`
+**Description:** Gives a Pal with random stats/passives at the specified level. Use the Pal's developer name (e.g., `WeaselDragon`).
+**Syntax:** `/givepal <UserId> <PalID> [Level=1]` | `/givemepal <PalID> [Level=1]`
+**Permissions:** `Chat`, `RCON`, `Admin`
+
+### `/givepal_j` & `/givemepal_j`
+**Description:** Gives a Pal defined by a PalTemplate JSON file (supports SkinId). Embedded JSON is no longer supported; use the filename.
+**Syntax:** `/givepal_j <UserId> <PalTemplate>` | `/givemepal_j <PalTemplate>`
+**Permissions:** `Chat`, `RCON`, `Admin`
+
+### `/spawnpal` & `/spawnpal_j`
+**Description:** Spawns a wild Pal. RCON requires X, Y, Z coordinates.
+**Syntax:** `/spawnpal <PalID> [X] [Y] [Z] [Level=1]` | `/spawnpal_j <PalTemplate> [X] [Y] [Z]`
+**Permissions:** `Chat`, `RCON`, `Admin`
+
+### `/deletepals`
+**Description:** Deletes Pals from a user utilizing advanced string filters.
+**Syntax:** `/deletepals <UserId> <PalFilter>`
+**Filters:** Combine keywords like `ID`, `Nick`, `Gender`, `Level`, `Rank`, `Lucky`, `Passives`, and `Limit`.
+**Example:** `/deletepals steam_123 ID Anubis Rank>=3`
+**Permissions:** `Chat`, `RCON`, `Admin`
+
+### `/exportpals`
+**Description:** Exports equipped Pals to a template file.
+**Syntax:** `/exportpals [UserId]`
+**Permissions:** `Chat`, `RCON`, `Admin`
+
+### `/removedroppedpals`
+**Description:** Removes all Pals currently dropped in the world.
+**Permissions:** `Chat`, `RCON`, `Admin`
+
+### Special Admin Pals
+* `/jetragon`: Gives you an Admin Jetragon (Max level, extremely fast).
+* `/catwaifu`: Gives you an Admin Cat Waifu (Buffs character stats, max level).
+
+### Egg Commands
+**Description:** Gives an egg with a specific Pal inside. Size ranges from `01` to `05` (e.g., `PalEgg_Fire_01`).
+* `/giveegg <UserID> <EggID> <PalID> [Level=1]`
+* `/givemeegg <EggID> <PalID> [Level=1]`
+* `/giveegg_j <UserID> <EggID> <PalTemplate> [Level=1]`
+* `/givemeegg_j <EggID> <PalTemplate> [Level=1]`
+
+---
+
+## 📈 Experience, Stats & Technology
+
+### `/give_exp` & `/giveme_exp`
+**Description:** Gives experience points. (Note: Gives in a small radius around the target player).
+**Syntax:** `/give_exp <UserId> <Amount>` | `/giveme_exp <Amount>`
+**Permissions:** `Chat`, `RCON`, `Admin`
+
+### `/givestats` & `/givemestats`
+**Description:** Gives unused stat points. Negative subtracts. Default `0` displays unused points.
+**Syntax:** `/givestats <UserId> <numStats>` | `/givemestats <numStats>`
+**Permissions:** `Chat`, `RCON`, `Admin`
+
+### Technology & Ancient Tech
+**Description:** Grant technology points (negative subtracts).
+* `/givetech <UserId> [Count]` / `/givemetech [Count]`
+* `/givebosstech <UserId> [Count]` / `/givemebosstech [Count]`
+
+### `/learntech` & `/unlearntech`
+**Description:** Lets a player learn or forget a specific technology. TechID can be `all`.
+**Syntax:** `/learntech <UserID> <TechID>` | `/unlearntech <UserID> <TechID>`
+**Permissions:** `Chat`, `RCON`, `Admin`
