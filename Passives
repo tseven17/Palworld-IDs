@@ -1,962 +1,1677 @@
-Health Up Lv. 1
-HP_ACC_up1
-
-Health Up Lv. 2
-HP_ACC_up2
-
-Health Up Lv. 3
-HP_ACC_up3
-
-Attack Up Lv. 1
-Attack_ACC_up1
-
-Attack Up Lv. 2
-Attack_ACC_up2
-
-Attack Up Lv. 3
-Attack_ACC_up3
-
-Defense Up Lv. 1
-defense_ACC_up1
-
-Defense Up Lv. 2
-defense_ACC_up2
-
-Defense Up Lv. 3
-defense_ACC_up3
-
-Speedy Worker Lv. 1
-WorkSpeed_ACC_up1
-
-Speedy Worker Lv. 2
-WorkSpeed_ACC_up2
-
-Speedy Worker Lv. 3
-WorkSpeed_ACC_up3
-
-Remarkable Craftsmanship
-CraftSpeed_up3
-
-Artisan
-CraftSpeed_up2
-
-Serious
-CraftSpeed_up1
-
-Clumsy
-CraftSpeed_down1
-
-Slacker
-CraftSpeed_down2
-
-Diamond Body
-Deffence_up3
-
-Burly Body
-Deffence_up2
-
-Hard Skin
-Deffence_up1
-
-Downtrodden
-Deffence_down1
-
-Brittle
-Deffence_down2
-
-Musclehead
-Noukin
-
-Egg Layer
-CollectItem_Egg
-
-Milk Maker
-CollectItem_Milk
-
-Berry Picker
-CollectItem_Berries
-
-Confectioner
-CollectItem_Sweets
-
-Gold Digger
-CollectItem_Money
-
-Wool Maker
-CollectItem_Wool_Alpaca
-
-Wool Maker
-CollectItem_Wool_SheepBall
-
-Silk Spinner
-CollectItem_Wool_WhiteMoth
-
-Heat Resistant Lv. 1
-TemperatureResist_Heat1
-
-Heat Resistant Lv. 2
-TemperatureResist_Heat2
-
-Heat Resistant Lv. 3
-TemperatureResist_Heat3
-
-Cold Resistant Lv. 1
-TemperatureResist_Cold1
-
-Cold Resistant Lv. 2
-TemperatureResist_Cold2
-
-Cold Resistant Lv. 3
-TemperatureResist_Cold3
-
-Heat Resistant Lv. 1 / Cold Resistant Lv. 1
-TemperatureResist_Heat1Cold1
-
-Heat Resistant Lv. 2 / Cold Resistant Lv. 2
-TemperatureResist_Heat2Cold2
-
-Heat Resistant Lv. 3 / Cold Resistant Lv. 3
-TemperatureResist_Heat3Cold3
-
-Lucky
-Rare
-
-Legend
-Legend
-
-Siren of the Void
-Witch
-
-Eternal Flame
-EternalFlame
-
-Invader
-Invader
-
-Max Carrying Capacity Lv. 1
-MaxInventoryWeight_up
-
-Max Carrying Capacity Lv. 2
-MaxInventoryWeight_up2
-
-Max Carrying Capacity Lv. 3
-MaxInventoryWeight_up3
-
-Demon God
-PAL_ALLAttack_up3
-
-Ferocious
-PAL_ALLAttack_up2
-
-Brave
-PAL_ALLAttack_up1
-
-Coward
-PAL_ALLAttack_down1
-
-Pacifist
-PAL_ALLAttack_down2
-
-Hooligan
-PAL_rude
-
-Conceited
-PAL_conceited
-
-Mentally unstable
-PAL_SpiritualInst
-
-Sadist
-PAL_sadist
-
-Masochist
-PAL_masochist
-
-Work Slave
-PAL_CorporateSlave
-
-Aggressive
-PAL_oraora
-
-Neutral Damage Reduction Lv. 1
-ElementResist_Normal_1
-
-Fire Damage Reduction Lv. 1
-ElementResist_Fire_1
-
-Water Damage Reduction Lv. 1
-ElementResist_Aqua_1
-
-Electric Damage Reduction Lv. 1
-ElementResist_Thunder_1
-
-Grass Damage Reduction Lv. 1
-ElementResist_Leaf_1
-
-Ice Damage Reduction Lv. 1
-ElementResist_Ice_1
-
-Earth Damage Reduction Lv. 1
-ElementResist_Earth_1
-
-Dark Damage Reduction Lv. 1
-ElementResist_Dark_1
-
-Dragon Damage Reduction Lv. 1
-ElementResist_Dragon_1
-
-Neutral Damage Reduction Lv. 2
-ElementResist_Normal_2
-
-Fire Damage Reduction Lv. 2
-ElementResist_Fire_2
-
-Water Damage Reduction Lv. 2
-ElementResist_Aqua_2
-
-Electric Damage Reduction Lv. 2
-ElementResist_Thunder_2
-
-Grass Damage Reduction Lv. 2
-ElementResist_Leaf_2
-
-Ice Damage Reduction Lv. 2
-ElementResist_Ice_2
-
-Earth Damage Reduction Lv. 2
-ElementResist_Earth_2
-
-Dark Damage Reduction Lv. 2
-ElementResist_Dark_2
-
-Dragon Damage Reduction Lv. 2
-ElementResist_Dragon_2
-
-Neutral Damage Reduction Lv. 3
-ElementResist_Normal_3
-
-Fire Damage Reduction Lv. 3
-ElementResist_Fire_3
-
-Water Damage Reduction Lv. 3
-ElementResist_Aqua_3
-
-Electric Damage Reduction Lv. 3
-ElementResist_Thunder_3
-
-Grass Damage Reduction Lv. 3
-ElementResist_Leaf_3
-
-Ice Damage Reduction Lv. 3
-ElementResist_Ice_3
-
-Earth Damage Reduction Lv. 3
-ElementResist_Earth_3
-
-Dark Damage Reduction Lv. 3
-ElementResist_Dark_3
-
-Dragon Damage Reduction Lv. 3
-ElementResist_Dragon_3
-
-Vanguard
-TrainerATK_UP_1
-
-Stronghold Strategist
-TrainerDEF_UP_1
-
-Motivational Leader
-TrainerWorkSpeed_UP_1
-
-Mine Foreman
-TrainerMining_up1
-
-Logging Foreman
-TrainerLogging_up1
-
-Abnormal
-ElementResist_Normal_1_PAL
-
-Suntan Lover
-ElementResist_Fire_1_PAL
-
-Waterproof
-ElementResist_Aqua_1_PAL
-
-Insulated Body
-ElementResist_Thunder_1_PAL
-
-Botanical Barrier
-ElementResist_Leaf_1_PAL
-
-Heated Body
-ElementResist_Ice_1_PAL
-
-Earthquake Resistant
-ElementResist_Earth_1_PAL
-
-Cheery
-ElementResist_Dark_1_PAL
-
-Dragonkiller
-ElementResist_Dragon_1_PAL
-
-Zen Mind
-ElementBoost_Normal_1_PAL
-
-Pyromaniac
-ElementBoost_Fire_1_PAL
-
-Hydromaniac
-ElementBoost_Aqua_1_PAL
-
-Capacitor
-ElementBoost_Thunder_1_PAL
-
-Fragrant Foliage
-ElementBoost_Leaf_1_PAL
-
-Coldblooded
-ElementBoost_Ice_1_PAL
-
-Power of Gaia
-ElementBoost_Earth_1_PAL
-
-Veil of Darkness
-ElementBoost_Dark_1_PAL
-
-Blood of the Dragon
-ElementBoost_Dragon_1_PAL
-
-Glutton
-PAL_FullStomach_Up_1
-
-Bottomless Stomach
-PAL_FullStomach_Up_2
-
-Dainty Eater
-PAL_FullStomach_Down_1
-
-Diet Lover
-PAL_FullStomach_Down_2
-
-Mastery of Fasting
-PAL_FullStomach_Down_3
-
-Unstable
-PAL_Sanity_Up_1
-
-Destructive
-PAL_Sanity_Up_2
-
-Positive Thinker
-PAL_Sanity_Down_1
-
-Workaholic
-PAL_Sanity_Down_2
-
-Heart of the Immovable King
-PAL_Sanity_Down_3
-
-Celestial Emperor
-ElementBoost_Normal_2_PAL
-
-Flame Emperor
-ElementBoost_Fire_2_PAL
-
-Lord of the Sea
-ElementBoost_Aqua_2_PAL
-
-Lord of Lightning
-ElementBoost_Thunder_2_PAL
-
-Spirit Emperor
-ElementBoost_Leaf_2_PAL
-
-Ice Emperor
-ElementBoost_Ice_2_PAL
-
-Earth Emperor
-ElementBoost_Earth_2_PAL
-
-Lord of the Underworld
-ElementBoost_Dark_2_PAL
-
-Divine Dragon
-ElementBoost_Dragon_2_PAL
-
-Nimble
-MoveSpeed_up_1
-
-Runner
-MoveSpeed_up_2
-
-Swift
-MoveSpeed_up_3
-
-Mercy Hit
-NonKilling
-
-Max Carrying Capacity Lv. 1
-MaxInventoryWeight_up_Equip_1
-
-Max Carrying Capacity Lv. 2
-MaxInventoryWeight_up_Equip_2
-
-Max Carrying Capacity Lv. 3
-MaxInventoryWeight_up_Equip_3
-
-Nocturnal
-Nocturnal
-
-Philanthropist
-Test_PalEgg_HatchingSpeed_Up
-
-Serenity
-CoolTimeReduction_Up_1
-
-Impatient
-CoolTimeReduction_Up_2
-
-Tempest Fury
-CoolTimeReduction_Up_3
-
-Easygoing
-CoolTimeReduction_Down_1
-
-Infinite Stamina
-Stamina_Up_1
-
-Fit as a Fiddle
-Stamina_Up_2
-
-Eternal Engine
-Stamina_Up_3
-
-Sickly
-Stamina_Down_1
-
-Noble
-SalePrice_Up_1
-
-Fine Furs
-SalePrice_Up_2
-
-Shabby
-SalePrice_Down_1
-
-Otherworldly Cells
-Alien
-
-Vampiric
-Vampire
-
-Neutral Damage Enhancement (Small)
-ElementBoost_Normal_1_BossDefeat
-
-Fire Damage Enhancement (Small)
-ElementBoost_Fire_1_BossDefeat
-
-Water Damage Enhancement (Small)
-ElementBoost_Water_1_BossDefeat
-
-Electric Damage Enhancement (Small)
-ElementBoost_Electricity_1_BossDefeat
-
-Grass Damage Enhancement (Small)
-ElementBoost_Leaf_1_BossDefeat
-
-Ice Damage Enhancement (Small)
-ElementBoost_Ice_1_BossDefeat
-
-Ground Damage Enhancement (Small)
-ElementBoost_Earth_1_BossDefeat
-
-Dark Damage Enhancement (Small)
-ElementBoost_Dark_1_BossDefeat
-
-Dragon Damage Enhancement (Small)
-ElementBoost_Dragon_1_BossDefeat
-
-Neutral Damage Enhancement (Medium)
-ElementBoost_Normal_2_BossDefeat
-
-Fire Damage Enhancement (Medium)
-ElementBoost_Fire_2_BossDefeat
-
-Water Damage Enhancement (Medium)
-ElementBoost_Water_2_BossDefeat
-
-Electric Damage Enhancement (Medium)
-ElementBoost_Electricity_2_BossDefeat
-
-Grass Damage Enhancement (Medium)
-ElementBoost_Leaf_2_BossDefeat
-
-Ice Damage Enhancement (Medium)
-ElementBoost_Ice_2_BossDefeat
-
-Ground Damage Enhancement (Medium)
-ElementBoost_Earth_2_BossDefeat
-
-Dark Damage Enhancement (Medium)
-ElementBoost_Dark_2_BossDefeat
-
-Dragon Damage Enhancement (Medium)
-ElementBoost_Dragon_2_BossDefeat
-
-Neutral Damage Enhancement (Large)
-ElementBoost_Normal_3_BossDefeat
-
-Fire Damage Enhancement (Large)
-ElementBoost_Fire_3_BossDefeat
-
-Water Damage Enhancement (Large)
-ElementBoost_Water_3_BossDefeat
-
-Electric Damage Enhancement (Large)
-ElementBoost_Electricity_3_BossDefeat
-
-Grass Damage Enhancement (Large)
-ElementBoost_Leaf_3_BossDefeat
-
-Ice Damage Enhancement (Large)
-ElementBoost_Ice_3_BossDefeat
-
-Ground Damage Enhancement (Large)
-ElementBoost_Earth_3_BossDefeat
-
-Dark Damage Enhancement (Large)
-ElementBoost_Dark_3_BossDefeat
-
-Dragon Damage Enhancement (Large)
-ElementBoost_Dragon_3_BossDefeat
-
-Sphere Weight +1
-SphereModule_Heavy
-
-Sphere Curve +1
-SphereModule_Curve
-
-Sphere Range +1
-SphereModule_Sniper
-
-Sphere Slider
-SphereModule_Curve2
-
-Sphere Range +2
-SphereModule_Sniper2
-
-Sphere Homing
-SphereModule_Homing
-
-Capture Strength +1
-CaptureLevel_Up_1
-
-Capture Strength +2
-CaptureLevel_Up_2
-
-Capture Strength +3
-CaptureLevel_Up_3
-
-Capture Strength +4
-CaptureLevel_Up_4
-
-Capture Strength +5
-CaptureLevel_Up_5
-
-Capture Strength +6
-CaptureLevel_Up_6
-
-Jump Power Boost
-JumpPower_Increase
-
-Jump Count Increase +1
-JumpCount_Increase1
-
-Jump Count Increase +2
-JumpCount_Increase2
-
-Jump Count Increase +3
-JumpCount_Increase3
-
-Aerial Dash +1
-AirDash_1
-
-Aerial Dash +2
-AirDash_2
-
-Aerial Dash +3
-AirDash_3
-
-Aerial Dash +4
-AirDash_4
-
-Ice Damage Enhancement (Small)
-BossDefeatReward_WeaselDragon
-
-Ice Damage Enhancement (Small)
-BossDefeatReward_MopKing
-
-Ground Damage Enhancement (Small)
-BossDefeatReward_PlantSlime
-
-Ground Damage Enhancement (Small)
-BossDefeatReward_LazyCatfish
-
-Water Damage Enhancement (Small)
-BossDefeatReward_CaptainPenguin
-
-Water Damage Enhancement (Small)
-BossDefeatReward_BlueDragon
-
-Neutral Damage Enhancement (Small)
-BossDefeatReward_NaughtyCat
-
-Neutral Damage Enhancement (Small)
-BossDefeatReward_HawkBird
-
-Dragon Damage Enhancement (Small)
-BossDefeatReward_SkyDragon
-
-Dark Damage Enhancement (Small)
-BossDefeatReward_CatVampire
-
-Neutral Damage Enhancement (Small)
-BossDefeatReward_KingAlpaca
-
-Grass Damage Enhancement (Small)
-BossDefeatReward_SakuraSaurus
-
-Dark Damage Enhancement (Small)
-BossDefeatReward_CatMage
-
-Fire Damage Enhancement (Medium)
-BossDefeatReward_Ronin
-
-Neutral Damage Enhancement (Small)
-BossDefeatReward_FengyunDeeper
-
-Grass Damage Enhancement (Small)
-BossDefeatReward_FlowerDoll
-
-Electric Damage Enhancement (Small)
-BossDefeatReward_ThunderBird
-
-Ground Damage Enhancement (Small)
-BossDefeatReward_HerculesBeetle
-
-Water Damage Enhancement (Small)
-BossDefeatReward_SakuraSaurus_Water
-
-Dragon Damage Enhancement (Small)
-BossDefeatReward_FairyDragon
-
-Dragon Damage Enhancement (Small)
-BossDefeatReward_LazyDragon_Electric
-
-Electric Damage Enhancement (Small)
-BossDefeatReward_Kirin
-
-Grass Damage Enhancement (Small)
-BossDefeatReward_QueenBee
-
-Electric Damage Enhancement (Small)
-BossDefeatReward_GrassPanda_Electric
-
-Neutral Damage Enhancement (Small)
-BossDefeatReward_Mutant
-
-Grass Damage Enhancement (Small)
-BossDefeatReward_GrassRabbitMan
-
-Grass Damage Enhancement (Small)
-BossDefeatReward_Yeti_Grass
-
-Grass Damage Enhancement (Medium)
-BossDefeatReward_GrassMammoth
-
-Grass Damage Enhancement (Medium)
-BossDefeatReward_VioletFairy
-
-Ice Damage Enhancement (Small)
-BossDefeatReward_WhiteMoth
-
-Dark Damage Enhancement (Small)
-BossDefeatReward_DarkScorpion
-
-Fire Damage Enhancement (Large)
-BossDefeatReward_Suzaku
-
-Water Damage Enhancement (Medium)
-BossDefeatReward_Umihebi
-
-Ice Damage Enhancement (Medium)
-BossDefeatReward_KingAlpaca_Ice
-
-Electric Damage Enhancement (Small)
-BossDefeatReward_FlowerDinosaur_Electric
-
-Ground Damage Enhancement (Small)
-BossDefeatReward_Anubis
-
-Dragon Damage Enhancement (Medium)
-BossDefeatReward_BlackMetalDragon
-
-Fire Damage Enhancement (Large)
-BossDefeatReward_KingBahamut
-
-Dark Damage Enhancement (Small)
-BossDefeatReward_LilyQueen_Dark
-
-Ground Damage Enhancement (Small)
-BossDefeatReward_DarkScorpion_Ground
-
-Ground Damage Enhancement (Small)
-BossDefeatReward_WingGolem
-
-Dark Damage Enhancement (Small)
-BossDefeatReward_GrimGirl
-
-Electric Damage Enhancement (Medium)
-BossDefeatReward_BlueThunderHorse
-
-Dark Damage Enhancement (Small)
-BossDefeatReward_AmaterasuWolf_Dark
-
-Electric Damage Enhancement (Medium)
-BossDefeatReward_FengyunDeeper_Electric
-
-Neutral Damage Enhancement (Medium)
-BossDefeatReward_WhiteDeer
-
-Dragon Damage Enhancement (Medium)
-BossDefeatReward_WhiteShieldDragon
-
-Water Damage Enhancement (Medium)
-BossDefeatReward_Horus_Water
-
-Dragon Damage Enhancement (Large)
-BossDefeatReward_JetDragon
-
-Ice Damage Enhancement (Large)
-BossDefeatReward_IceHorse
-
-Neutral Damage Enhancement (Large)
-BossDefeatReward_SaintCentaur_1
-
-Dark Damage Enhancement (Small)
-BossDefeatReward_SaintCentaur_2
-
-Dark Damage Enhancement (Small)
-BossDefeatReward_BlackPuppy
-
-Dark Damage Enhancement (Small)
-BossDefeatReward_GhostRabbit
-
-Dark Damage Enhancement (Small)
-BossDefeatReward_NightBlueHorse
-
-Grass Damage Enhancement (Medium)
-BossDefeatReward_BlueberryFairy
-
-Dark Damage Enhancement (Small)
-BossDefeatReward_BadCatgirl
-
-Ground Damage Enhancement (Medium)
-BossDefeatReward_GoldenHorse
-
-Dark Damage Enhancement (Small)
-BossDefeatReward_MysteryMask
-
-Dark Damage Enhancement (Small)
-BossDefeatReward_PurpleSpider
-
-Dark Damage Enhancement (Small)
-BossDefeatReward_IceHorse_Dark
-
-Ice Damage Enhancement (Large)
-BossDefeatReward_Kitsunebi_Ice
-
-Dark Damage Enhancement (Small)
-BossDefeatReward_RaijinDaughter_Water
-
-Ground Damage Enhancement (Medium)
-BossDefeatReward_WhiteTiger_Ground
-
-Grass Damage Enhancement (Medium)
-BossDefeatReward_BerryGoat_Dark
-
-Ice Damage Enhancement (Large)
-BossDefeatReward_Werewolf_Ice
-
-Grass Damage Enhancement (Medium)
-BossDefeatReward_PinkRabbit_Grass
-
-Ground Damage Enhancement (Medium)
-BossDefeatReward_HerculesBeetle_Ground
-
-Ice Damage Enhancement (Large)
-BossDefeatReward_IceNarwhal
-
-Fire Damage Enhancement (Large)
-BossDefeatReward_IceNarwhal_Fire
-
-Water Damage Enhancement (Large)
-BossDefeatReward_PoseidonOrca
-
-Pal Neutral Damage Enhancement Lv. 1
-ElementBoost_Normal_1_Otomo_Only_Equip
-
-Pal Fire Damage Enhancement Lv. 1
-ElementBoost_Fire_1_Otomo_Only_Equip
-
-Pal Water Damage Enhancement Lv. 1
-ElementBoost_Water_1_Otomo_Only_Equip
-
-Pal Electric Damage Enhancement Lv. 1
-ElementBoost_Electricity_1_Otomo_Only_Equip
-
-Pal Grass Damage Enhancement Lv. 1
-ElementBoost_Leaf_1_Otomo_Only_Equip
-
-Pal Ice Damage Enhancement Lv. 1
-ElementBoost_Ice_1_Otomo_Only_Equip
-
-Pal Ground Damage Enhancement Lv. 1
-ElementBoost_Earth_1_Otomo_Only_Equip
-
-Pal Dark Damage Enhancement Lv. 1
-ElementBoost_Dark_1_Otomo_Only_Equip
-
-Pal Dragon Damage Enhancement Lv. 1
-ElementBoost_Dragon_1_Otomo_Only_Equip
-
-Pal Neutral Damage Enhancement Lv. 2
-ElementBoost_Normal_2_Otomo_Only_Equip
-
-Pal Fire Damage Enhancement Lv. 2
-ElementBoost_Fire_2_Otomo_Only_Equip
-
-Pal Water Damage Enhancement Lv. 2
-ElementBoost_Water_2_Otomo_Only_Equip
-
-Pal Electric Damage Enhancement Lv. 2
-ElementBoost_Electricity_2_Otomo_Only_Equip
-
-Pal Grass Damage Enhancement Lv. 2
-ElementBoost_Leaf_2_Otomo_Only_Equip
-
-Pal Ice Damage Enhancement Lv. 2
-ElementBoost_Ice_2_Otomo_Only_Equip
-
-Pal Ground Damage Enhancement Lv. 2
-ElementBoost_Earth_2_Otomo_Only_Equip
-
-Pal Dark Damage Enhancement Lv. 2
-ElementBoost_Dark_2_Otomo_Only_Equip
-
-Pal Dragon Damage Enhancement Lv. 2
-ElementBoost_Dragon_2_Otomo_Only_Equip
-
-Pal Neutral Damage Enhancement Lv. 3
-ElementBoost_Normal_3_Otomo_Only_Equip
-
-Pal Fire Damage Enhancement Lv. 3
-ElementBoost_Fire_3_Otomo_Only_Equip
-
-Pal Water Damage Enhancement Lv. 3
-ElementBoost_Water_3_Otomo_Only_Equip
-
-Pal Electric Damage Enhancement Lv. 3
-ElementBoost_Electricity_3_Otomo_Only_Equip
-
-Pal Grass Damage Enhancement Lv. 3
-ElementBoost_Leaf_3_Otomo_Only_Equip
-
-Pal Ice Damage Enhancement Lv. 3
-ElementBoost_Ice_3_Otomo_Only_Equip
-
-Pal Ground Damage Enhancement Lv. 3
-ElementBoost_Earth_3_Otomo_Only_Equip
-
-Pal Dark Damage Enhancement Lv. 3
-ElementBoost_Dark_3_Otomo_Only_Equip
-
-Pal Dragon Damage Enhancement Lv. 3
-ElementBoost_Dragon_3_Otomo_Only_Equip
-
-Pal Attack Up Lv. 1
-Attack_ACC_up1_Otomo_Only_Equip
-
-Pal Attack Up Lv. 2
-Attack_ACC_up2_Otomo_Only_Equip
-
-Pal Attack Up Lv. 3
-Attack_ACC_up3_Otomo_Only_Equip
-
-Pal Defense Up Lv. 1
-Defense_ACC_up1_Otomo_Only_Equip
-
-Pal Defense Up Lv. 2
-Defense_ACC_up2_Otomo_Only_Equip
-
-Pal Defense Up Lv. 3
-Defense_ACC_up3_Otomo_Only_Equip
-
-Pal EXP Up Lv. 1
-PalExp_Increase_1_Otomo_Only_Equip
-
-Pal EXP Up Lv. 2
-PalExp_Increase_2_Otomo_Only_Equip
-
-Pal EXP Up Lv. 3
-PalExp_Increase_3_Otomo_Only_Equip
-
-Lunker
-Nushi
-
-Sleek Stroke
-SwimSpeed_up_1
-
-Ace Swimmer
-SwimSpeed_up_2
-
-King of the Waves
-SwimSpeed_up_3
-
-Hallowed Guard
-YakushimaProtection_Equip
-
-Hallowed Power: Close Range
-YakushimaDagameBoost_Melee_Equip
-
-Hallowed Power: Ranged
-YakushimaDagameBoost_Ranged_Equip
-
-Hallowed Power: Magic
-YakushimaDagameBoost_Magic_Equip
-
-Hallowed Power: Summon
-YakushimaDagameBoost_Summon_Equip
-
-Rayne Syndicate Officer
-GYM_NAME_Meadow
-
-Free Pal Alliance Founder
-GYM_NAME_Forest
-
-PIDF Officer
-GYM_NAME_Desert
-
-Brothers of the Eternal Pyre Soul Leader
-GYM_NAME_Volcano
-
-PAL Genetic Research Unit Commander
-GYM_NAME_Snow
-
-Leader of the Moonflowers
-GYM_NAME_Sakurajima
-
-Jarl of Feybreak
-GYM_NAME_Viking
+{
+  "count": 418,
+  "passives": [
+    {
+      "name": "Health Up Lv. 1",
+      "id": "HP_ACC_up1"
+    },
+    {
+      "name": "Health Up Lv. 2",
+      "id": "HP_ACC_up2"
+    },
+    {
+      "name": "Health Up Lv. 3",
+      "id": "HP_ACC_up3"
+    },
+    {
+      "name": "Health Up Lv. 4",
+      "id": "HP_ACC_up4"
+    },
+    {
+      "name": "Attack Up Lv. 1",
+      "id": "Attack_ACC_up1"
+    },
+    {
+      "name": "Attack Up Lv. 2",
+      "id": "Attack_ACC_up2"
+    },
+    {
+      "name": "Attack Up Lv. 3",
+      "id": "Attack_ACC_up3"
+    },
+    {
+      "name": "Attack Up Lv. 4",
+      "id": "Attack_ACC_up4"
+    },
+    {
+      "name": "Attack Up (S) Lv. 1",
+      "id": "Attack_ACC_up1_Armor"
+    },
+    {
+      "name": "Attack Up (S) Lv. 2",
+      "id": "Attack_ACC_up2_Armor"
+    },
+    {
+      "name": "Attack Up (S) Lv. 3",
+      "id": "Attack_ACC_up3_Armor"
+    },
+    {
+      "name": "Attack Up (S) Lv. 4",
+      "id": "Attack_ACC_up4_Armor"
+    },
+    {
+      "name": "Defense Up Lv. 1",
+      "id": "defense_ACC_up1"
+    },
+    {
+      "name": "Defense Up Lv. 2",
+      "id": "defense_ACC_up2"
+    },
+    {
+      "name": "Defense Up Lv. 3",
+      "id": "defense_ACC_up3"
+    },
+    {
+      "name": "Defense Up Lv. 4",
+      "id": "defense_ACC_up4"
+    },
+    {
+      "name": "Speedy Worker Lv. 1",
+      "id": "WorkSpeed_ACC_up1"
+    },
+    {
+      "name": "Speedy Worker Lv. 2",
+      "id": "WorkSpeed_ACC_up2"
+    },
+    {
+      "name": "Speedy Worker Lv. 3",
+      "id": "WorkSpeed_ACC_up3"
+    },
+    {
+      "name": "Speedy Worker Lv. 4",
+      "id": "WorkSpeed_ACC_up4"
+    },
+    {
+      "name": "Remarkable Craftsmanship",
+      "id": "CraftSpeed_up3"
+    },
+    {
+      "name": "Artisan",
+      "id": "CraftSpeed_up2"
+    },
+    {
+      "name": "Serious",
+      "id": "CraftSpeed_up1"
+    },
+    {
+      "name": "Clumsy",
+      "id": "CraftSpeed_down1"
+    },
+    {
+      "name": "Slacker",
+      "id": "CraftSpeed_down2"
+    },
+    {
+      "name": "Diamond Body",
+      "id": "Deffence_up3"
+    },
+    {
+      "name": "Burly Body",
+      "id": "Deffence_up2"
+    },
+    {
+      "name": "Hard Skin",
+      "id": "Deffence_up1"
+    },
+    {
+      "name": "Downtrodden",
+      "id": "Deffence_down1"
+    },
+    {
+      "name": "Brittle",
+      "id": "Deffence_down2"
+    },
+    {
+      "name": "Musclehead",
+      "id": "Noukin"
+    },
+    {
+      "name": "Egg Layer",
+      "id": "CollectItem_Egg"
+    },
+    {
+      "name": "Milk Maker",
+      "id": "CollectItem_Milk"
+    },
+    {
+      "name": "Berry Picker",
+      "id": "CollectItem_Berries"
+    },
+    {
+      "name": "Confectioner",
+      "id": "CollectItem_Sweets"
+    },
+    {
+      "name": "Gold Digger",
+      "id": "CollectItem_Money"
+    },
+    {
+      "name": "Wool Maker",
+      "id": "CollectItem_Wool_Alpaca"
+    },
+    {
+      "name": "Wool Maker",
+      "id": "CollectItem_Wool_SheepBall"
+    },
+    {
+      "name": "Silk Spinner",
+      "id": "CollectItem_Wool_WhiteMoth"
+    },
+    {
+      "name": "Heat Resistance Lv. 1",
+      "id": "TemperatureResist_Heat1"
+    },
+    {
+      "name": "Heat Resistance Lv. 2",
+      "id": "TemperatureResist_Heat2"
+    },
+    {
+      "name": "Heat Resistance Lv. 3",
+      "id": "TemperatureResist_Heat3"
+    },
+    {
+      "name": "Cold Resistance Lv. 1",
+      "id": "TemperatureResist_Cold1"
+    },
+    {
+      "name": "Cold Resistance Lv. 2",
+      "id": "TemperatureResist_Cold2"
+    },
+    {
+      "name": "Cold Resistance Lv. 3",
+      "id": "TemperatureResist_Cold3"
+    },
+    {
+      "name": "Heat Resistance Lv. 1 / Cold Resistance Lv. 1",
+      "id": "TemperatureResist_Heat1Cold1"
+    },
+    {
+      "name": "Heat Resistance Lv. 2 / Cold Resistance Lv. 2",
+      "id": "TemperatureResist_Heat2Cold2"
+    },
+    {
+      "name": "Heat Resistance Lv. 3 / Cold Resistance Lv. 3",
+      "id": "TemperatureResist_Heat3Cold3"
+    },
+    {
+      "name": "Lucky",
+      "id": "Rare"
+    },
+    {
+      "name": "Legend",
+      "id": "Legend"
+    },
+    {
+      "name": "Siren of the Void",
+      "id": "Witch"
+    },
+    {
+      "name": "Eternal Flame",
+      "id": "EternalFlame"
+    },
+    {
+      "name": "Invader",
+      "id": "Invader"
+    },
+    {
+      "name": "Max Carrying Capacity Lv. 1",
+      "id": "MaxInventoryWeight_up"
+    },
+    {
+      "name": "Max Carrying Capacity Lv. 2",
+      "id": "MaxInventoryWeight_up2"
+    },
+    {
+      "name": "Max Carrying Capacity Lv. 3",
+      "id": "MaxInventoryWeight_up3"
+    },
+    {
+      "name": "Demon God",
+      "id": "PAL_ALLAttack_up3"
+    },
+    {
+      "name": "Ferocious",
+      "id": "PAL_ALLAttack_up2"
+    },
+    {
+      "name": "Brave",
+      "id": "PAL_ALLAttack_up1"
+    },
+    {
+      "name": "Coward",
+      "id": "PAL_ALLAttack_down1"
+    },
+    {
+      "name": "Pacifist",
+      "id": "PAL_ALLAttack_down2"
+    },
+    {
+      "name": "Hooligan",
+      "id": "PAL_rude"
+    },
+    {
+      "name": "Conceited",
+      "id": "PAL_conceited"
+    },
+    {
+      "name": "Mentally unstable",
+      "id": "PAL_SpiritualInst"
+    },
+    {
+      "name": "Sadist",
+      "id": "PAL_sadist"
+    },
+    {
+      "name": "Masochist",
+      "id": "PAL_masochist"
+    },
+    {
+      "name": "Work Slave",
+      "id": "PAL_CorporateSlave"
+    },
+    {
+      "name": "Aggressive",
+      "id": "PAL_oraora"
+    },
+    {
+      "name": "Neutral Damage Reduction Lv. 1",
+      "id": "ElementResist_Normal_1"
+    },
+    {
+      "name": "Fire Damage Reduction Lv. 1",
+      "id": "ElementResist_Fire_1"
+    },
+    {
+      "name": "Water Damage Reduction Lv. 1",
+      "id": "ElementResist_Aqua_1"
+    },
+    {
+      "name": "Electric Damage Reduction Lv. 1",
+      "id": "ElementResist_Thunder_1"
+    },
+    {
+      "name": "Grass Damage Reduction Lv. 1",
+      "id": "ElementResist_Leaf_1"
+    },
+    {
+      "name": "Ice Damage Reduction Lv. 1",
+      "id": "ElementResist_Ice_1"
+    },
+    {
+      "name": "Earth Damage Reduction Lv. 1",
+      "id": "ElementResist_Earth_1"
+    },
+    {
+      "name": "Dark Damage Reduction Lv. 1",
+      "id": "ElementResist_Dark_1"
+    },
+    {
+      "name": "Dragon Damage Reduction Lv. 1",
+      "id": "ElementResist_Dragon_1"
+    },
+    {
+      "name": "Neutral Damage Reduction Lv. 2",
+      "id": "ElementResist_Normal_2"
+    },
+    {
+      "name": "Fire Damage Reduction Lv. 2",
+      "id": "ElementResist_Fire_2"
+    },
+    {
+      "name": "Water Damage Reduction Lv. 2",
+      "id": "ElementResist_Aqua_2"
+    },
+    {
+      "name": "Electric Damage Reduction Lv. 2",
+      "id": "ElementResist_Thunder_2"
+    },
+    {
+      "name": "Grass Damage Reduction Lv. 2",
+      "id": "ElementResist_Leaf_2"
+    },
+    {
+      "name": "Ice Damage Reduction Lv. 2",
+      "id": "ElementResist_Ice_2"
+    },
+    {
+      "name": "Earth Damage Reduction Lv. 2",
+      "id": "ElementResist_Earth_2"
+    },
+    {
+      "name": "Dark Damage Reduction Lv. 2",
+      "id": "ElementResist_Dark_2"
+    },
+    {
+      "name": "Dragon Damage Reduction Lv. 2",
+      "id": "ElementResist_Dragon_2"
+    },
+    {
+      "name": "Neutral Damage Reduction Lv. 3",
+      "id": "ElementResist_Normal_3"
+    },
+    {
+      "name": "Fire Damage Reduction Lv. 3",
+      "id": "ElementResist_Fire_3"
+    },
+    {
+      "name": "Water Damage Reduction Lv. 3",
+      "id": "ElementResist_Aqua_3"
+    },
+    {
+      "name": "Electric Damage Reduction Lv. 3",
+      "id": "ElementResist_Thunder_3"
+    },
+    {
+      "name": "Grass Damage Reduction Lv. 3",
+      "id": "ElementResist_Leaf_3"
+    },
+    {
+      "name": "Ice Damage Reduction Lv. 3",
+      "id": "ElementResist_Ice_3"
+    },
+    {
+      "name": "Earth Damage Reduction Lv. 3",
+      "id": "ElementResist_Earth_3"
+    },
+    {
+      "name": "Dark Damage Reduction Lv. 3",
+      "id": "ElementResist_Dark_3"
+    },
+    {
+      "name": "Dragon Damage Reduction Lv. 3",
+      "id": "ElementResist_Dragon_3"
+    },
+    {
+      "name": "Neutral Damage Reduction Lv. 4",
+      "id": "ElementResist_Normal_4"
+    },
+    {
+      "name": "Fire Damage Reduction Lv. 4",
+      "id": "ElementResist_Fire_4"
+    },
+    {
+      "name": "Water Damage Reduction Lv. 4",
+      "id": "ElementResist_Aqua_4"
+    },
+    {
+      "name": "Electric Damage Reduction Lv. 4",
+      "id": "ElementResist_Thunder_4"
+    },
+    {
+      "name": "Grass Damage Reduction Lv. 4",
+      "id": "ElementResist_Leaf_4"
+    },
+    {
+      "name": "Ice Damage Reduction Lv. 4",
+      "id": "ElementResist_Ice_4"
+    },
+    {
+      "name": "Ground Damage Reduction Lv. 4",
+      "id": "ElementResist_Earth_4"
+    },
+    {
+      "name": "Dark Damage Reduction Lv. 4",
+      "id": "ElementResist_Dark_4"
+    },
+    {
+      "name": "Dragon Damage Reduction Lv. 4",
+      "id": "ElementResist_Dragon_4"
+    },
+    {
+      "name": "Vanguard",
+      "id": "TrainerATK_UP_1"
+    },
+    {
+      "name": "Stronghold Strategist",
+      "id": "TrainerDEF_UP_1"
+    },
+    {
+      "name": "Motivational Leader",
+      "id": "TrainerWorkSpeed_UP_1"
+    },
+    {
+      "name": "Mine Foreman",
+      "id": "TrainerMining_up1"
+    },
+    {
+      "name": "Logging Foreman",
+      "id": "TrainerLogging_up1"
+    },
+    {
+      "name": "Abnormal",
+      "id": "ElementResist_Normal_1_PAL"
+    },
+    {
+      "name": "Suntan Lover",
+      "id": "ElementResist_Fire_1_PAL"
+    },
+    {
+      "name": "Waterproof",
+      "id": "ElementResist_Aqua_1_PAL"
+    },
+    {
+      "name": "Insulated Body",
+      "id": "ElementResist_Thunder_1_PAL"
+    },
+    {
+      "name": "Botanical Barrier",
+      "id": "ElementResist_Leaf_1_PAL"
+    },
+    {
+      "name": "Heated Body",
+      "id": "ElementResist_Ice_1_PAL"
+    },
+    {
+      "name": "Earthquake Resistant",
+      "id": "ElementResist_Earth_1_PAL"
+    },
+    {
+      "name": "Cheery",
+      "id": "ElementResist_Dark_1_PAL"
+    },
+    {
+      "name": "Dragonkiller",
+      "id": "ElementResist_Dragon_1_PAL"
+    },
+    {
+      "name": "Spirit of Zen",
+      "id": "ElementBoost_Normal_1_PAL"
+    },
+    {
+      "name": "Pyromaniac",
+      "id": "ElementBoost_Fire_1_PAL"
+    },
+    {
+      "name": "Hydromaniac",
+      "id": "ElementBoost_Aqua_1_PAL"
+    },
+    {
+      "name": "Capacitor",
+      "id": "ElementBoost_Thunder_1_PAL"
+    },
+    {
+      "name": "Fragrant Foliage",
+      "id": "ElementBoost_Leaf_1_PAL"
+    },
+    {
+      "name": "Coldblooded",
+      "id": "ElementBoost_Ice_1_PAL"
+    },
+    {
+      "name": "Power of Gaia",
+      "id": "ElementBoost_Earth_1_PAL"
+    },
+    {
+      "name": "Veil of Darkness",
+      "id": "ElementBoost_Dark_1_PAL"
+    },
+    {
+      "name": "Blood of the Dragon",
+      "id": "ElementBoost_Dragon_1_PAL"
+    },
+    {
+      "name": "Glutton",
+      "id": "PAL_FullStomach_Up_1"
+    },
+    {
+      "name": "Bottomless Stomach",
+      "id": "PAL_FullStomach_Up_2"
+    },
+    {
+      "name": "Dainty Eater",
+      "id": "PAL_FullStomach_Down_1"
+    },
+    {
+      "name": "Diet Lover",
+      "id": "PAL_FullStomach_Down_2"
+    },
+    {
+      "name": "Mastery of Fasting",
+      "id": "PAL_FullStomach_Down_3"
+    },
+    {
+      "name": "Unstable",
+      "id": "PAL_Sanity_Up_1"
+    },
+    {
+      "name": "Destructive",
+      "id": "PAL_Sanity_Up_2"
+    },
+    {
+      "name": "Positive Thinker",
+      "id": "PAL_Sanity_Down_1"
+    },
+    {
+      "name": "Workaholic",
+      "id": "PAL_Sanity_Down_2"
+    },
+    {
+      "name": "Heart of the Immovable King",
+      "id": "PAL_Sanity_Down_3"
+    },
+    {
+      "name": "Celestial Emperor",
+      "id": "ElementBoost_Normal_2_PAL"
+    },
+    {
+      "name": "Flame Emperor",
+      "id": "ElementBoost_Fire_2_PAL"
+    },
+    {
+      "name": "Lord of the Sea",
+      "id": "ElementBoost_Aqua_2_PAL"
+    },
+    {
+      "name": "Lord of Lightning",
+      "id": "ElementBoost_Thunder_2_PAL"
+    },
+    {
+      "name": "Spirit Emperor",
+      "id": "ElementBoost_Leaf_2_PAL"
+    },
+    {
+      "name": "Ice Emperor",
+      "id": "ElementBoost_Ice_2_PAL"
+    },
+    {
+      "name": "Earth Emperor",
+      "id": "ElementBoost_Earth_2_PAL"
+    },
+    {
+      "name": "Lord of the Underworld",
+      "id": "ElementBoost_Dark_2_PAL"
+    },
+    {
+      "name": "Divine Dragon",
+      "id": "ElementBoost_Dragon_2_PAL"
+    },
+    {
+      "name": "Nimble",
+      "id": "MoveSpeed_up_1"
+    },
+    {
+      "name": "Runner",
+      "id": "MoveSpeed_up_2"
+    },
+    {
+      "name": "Swift",
+      "id": "MoveSpeed_up_3"
+    },
+    {
+      "name": "Mercy Hit",
+      "id": "NonKilling"
+    },
+    {
+      "name": "Max Carrying Capacity Lv. 1",
+      "id": "MaxInventoryWeight_up_Equip_1"
+    },
+    {
+      "name": "Max Carrying Capacity Lv. 2",
+      "id": "MaxInventoryWeight_up_Equip_2"
+    },
+    {
+      "name": "Max Carrying Capacity Lv. 3",
+      "id": "MaxInventoryWeight_up_Equip_3"
+    },
+    {
+      "name": "Max Carrying Capacity Lv. 4",
+      "id": "MaxInventoryWeight_up_Equip_4"
+    },
+    {
+      "name": "Insomnia",
+      "id": "Nocturnal"
+    },
+    {
+      "name": "Serenity",
+      "id": "CoolTimeReduction_Up_1"
+    },
+    {
+      "name": "Impatient",
+      "id": "CoolTimeReduction_Up_2"
+    },
+    {
+      "name": "Tempest Fury",
+      "id": "CoolTimeReduction_Up_3"
+    },
+    {
+      "name": "Easygoing",
+      "id": "CoolTimeReduction_Down_1"
+    },
+    {
+      "name": "Infinite Stamina",
+      "id": "Stamina_Up_1"
+    },
+    {
+      "name": "Fit as a Fiddle",
+      "id": "Stamina_Up_2"
+    },
+    {
+      "name": "Eternal Engine",
+      "id": "Stamina_Up_3"
+    },
+    {
+      "name": "Sickly",
+      "id": "Stamina_Down_1"
+    },
+    {
+      "name": "Noble",
+      "id": "SalePrice_Up_1"
+    },
+    {
+      "name": "Fine Furs",
+      "id": "SalePrice_Up_2"
+    },
+    {
+      "name": "Shabby",
+      "id": "SalePrice_Down_1"
+    },
+    {
+      "name": "Otherworldly Cells",
+      "id": "Alien"
+    },
+    {
+      "name": "Vampiric",
+      "id": "Vampire"
+    },
+    {
+      "name": "Neutral Damage Enhancement (Small)",
+      "id": "ElementBoost_Normal_1_BossDefeat"
+    },
+    {
+      "name": "Fire Damage Enhancement (Small)",
+      "id": "ElementBoost_Fire_1_BossDefeat"
+    },
+    {
+      "name": "Water Damage Enhancement (Small)",
+      "id": "ElementBoost_Water_1_BossDefeat"
+    },
+    {
+      "name": "Electric Damage Enhancement (Small)",
+      "id": "ElementBoost_Electricity_1_BossDefeat"
+    },
+    {
+      "name": "Grass Damage Enhancement (Small)",
+      "id": "ElementBoost_Leaf_1_BossDefeat"
+    },
+    {
+      "name": "Ice Damage Enhancement (Small)",
+      "id": "ElementBoost_Ice_1_BossDefeat"
+    },
+    {
+      "name": "Ground Damage Enhancement (Small)",
+      "id": "ElementBoost_Earth_1_BossDefeat"
+    },
+    {
+      "name": "Dark Damage Enhancement (Small)",
+      "id": "ElementBoost_Dark_1_BossDefeat"
+    },
+    {
+      "name": "Dragon Damage Enhancement (Small)",
+      "id": "ElementBoost_Dragon_1_BossDefeat"
+    },
+    {
+      "name": "Neutral Damage Enhancement (Medium)",
+      "id": "ElementBoost_Normal_2_BossDefeat"
+    },
+    {
+      "name": "Fire Damage Enhancement (Medium)",
+      "id": "ElementBoost_Fire_2_BossDefeat"
+    },
+    {
+      "name": "Water Damage Enhancement (Medium)",
+      "id": "ElementBoost_Water_2_BossDefeat"
+    },
+    {
+      "name": "Electric Damage Enhancement (Medium)",
+      "id": "ElementBoost_Electricity_2_BossDefeat"
+    },
+    {
+      "name": "Grass Damage Enhancement (Medium)",
+      "id": "ElementBoost_Leaf_2_BossDefeat"
+    },
+    {
+      "name": "Ice Damage Enhancement (Medium)",
+      "id": "ElementBoost_Ice_2_BossDefeat"
+    },
+    {
+      "name": "Ground Damage Enhancement (Medium)",
+      "id": "ElementBoost_Earth_2_BossDefeat"
+    },
+    {
+      "name": "Dark Damage Enhancement (Medium)",
+      "id": "ElementBoost_Dark_2_BossDefeat"
+    },
+    {
+      "name": "Dragon Damage Enhancement (Medium)",
+      "id": "ElementBoost_Dragon_2_BossDefeat"
+    },
+    {
+      "name": "Neutral Damage Enhancement (Large)",
+      "id": "ElementBoost_Normal_3_BossDefeat"
+    },
+    {
+      "name": "Fire Damage Enhancement (Large)",
+      "id": "ElementBoost_Fire_3_BossDefeat"
+    },
+    {
+      "name": "Water Damage Enhancement (Large)",
+      "id": "ElementBoost_Water_3_BossDefeat"
+    },
+    {
+      "name": "Electric Damage Enhancement (Large)",
+      "id": "ElementBoost_Electricity_3_BossDefeat"
+    },
+    {
+      "name": "Grass Damage Enhancement (Large)",
+      "id": "ElementBoost_Leaf_3_BossDefeat"
+    },
+    {
+      "name": "Ice Damage Enhancement (Large)",
+      "id": "ElementBoost_Ice_3_BossDefeat"
+    },
+    {
+      "name": "Ground Damage Enhancement (Large)",
+      "id": "ElementBoost_Earth_3_BossDefeat"
+    },
+    {
+      "name": "Dark Damage Enhancement (Large)",
+      "id": "ElementBoost_Dark_3_BossDefeat"
+    },
+    {
+      "name": "Dragon Damage Enhancement (Large)",
+      "id": "ElementBoost_Dragon_3_BossDefeat"
+    },
+    {
+      "name": "Sphere Weight +1",
+      "id": "SphereModule_Heavy"
+    },
+    {
+      "name": "Sphere Curve +1",
+      "id": "SphereModule_Curve"
+    },
+    {
+      "name": "Sphere Range +1",
+      "id": "SphereModule_Sniper"
+    },
+    {
+      "name": "Sphere Slider",
+      "id": "SphereModule_Curve2"
+    },
+    {
+      "name": "Sphere Range +2",
+      "id": "SphereModule_Sniper2"
+    },
+    {
+      "name": "Sphere Homing",
+      "id": "SphereModule_Homing"
+    },
+    {
+      "name": "Capture Strength +1",
+      "id": "CaptureLevel_Up_1"
+    },
+    {
+      "name": "Capture Strength +2",
+      "id": "CaptureLevel_Up_2"
+    },
+    {
+      "name": "Capture Strength +3",
+      "id": "CaptureLevel_Up_3"
+    },
+    {
+      "name": "Capture Strength +4",
+      "id": "CaptureLevel_Up_4"
+    },
+    {
+      "name": "Capture Strength +5",
+      "id": "CaptureLevel_Up_5"
+    },
+    {
+      "name": "Capture Strength +6",
+      "id": "CaptureLevel_Up_6"
+    },
+    {
+      "name": "Jump Power Boost",
+      "id": "JumpPower_Increase"
+    },
+    {
+      "name": "Jump Count Increase +1",
+      "id": "JumpCount_Increase1"
+    },
+    {
+      "name": "Jump Count Increase +2",
+      "id": "JumpCount_Increase2"
+    },
+    {
+      "name": "Jump Count Increase +3",
+      "id": "JumpCount_Increase3"
+    },
+    {
+      "name": "Aerial Dash +1",
+      "id": "AirDash_1"
+    },
+    {
+      "name": "Aerial Dash +2",
+      "id": "AirDash_2"
+    },
+    {
+      "name": "Aerial Dash +3",
+      "id": "AirDash_3"
+    },
+    {
+      "name": "Aerial Dash +4",
+      "id": "AirDash_4"
+    },
+    {
+      "name": "Ice Damage Enhancement (Small)",
+      "id": "BossDefeatReward_WeaselDragon"
+    },
+    {
+      "name": "Ice Damage Enhancement (Small)",
+      "id": "BossDefeatReward_MopKing"
+    },
+    {
+      "name": "Ground Damage Enhancement (Small)",
+      "id": "BossDefeatReward_PlantSlime"
+    },
+    {
+      "name": "Ground Damage Enhancement (Small)",
+      "id": "BossDefeatReward_LazyCatfish"
+    },
+    {
+      "name": "Water Damage Enhancement (Small)",
+      "id": "BossDefeatReward_CaptainPenguin"
+    },
+    {
+      "name": "Water Damage Enhancement (Small)",
+      "id": "BossDefeatReward_BlueDragon"
+    },
+    {
+      "name": "Neutral Damage Enhancement (Small)",
+      "id": "BossDefeatReward_NaughtyCat"
+    },
+    {
+      "name": "Neutral Damage Enhancement (Small)",
+      "id": "BossDefeatReward_HawkBird"
+    },
+    {
+      "name": "Dragon Damage Enhancement (Small)",
+      "id": "BossDefeatReward_SkyDragon"
+    },
+    {
+      "name": "Dark Damage Enhancement (Small)",
+      "id": "BossDefeatReward_CatVampire"
+    },
+    {
+      "name": "Neutral Damage Enhancement (Small)",
+      "id": "BossDefeatReward_KingAlpaca"
+    },
+    {
+      "name": "Grass Damage Enhancement (Small)",
+      "id": "BossDefeatReward_SakuraSaurus"
+    },
+    {
+      "name": "Dark Damage Enhancement (Small)",
+      "id": "BossDefeatReward_CatMage"
+    },
+    {
+      "name": "Fire Damage Enhancement (Medium)",
+      "id": "BossDefeatReward_Ronin"
+    },
+    {
+      "name": "Neutral Damage Enhancement (Small)",
+      "id": "BossDefeatReward_FengyunDeeper"
+    },
+    {
+      "name": "Grass Damage Enhancement (Small)",
+      "id": "BossDefeatReward_FlowerDoll"
+    },
+    {
+      "name": "Electric Damage Enhancement (Small)",
+      "id": "BossDefeatReward_ThunderBird"
+    },
+    {
+      "name": "Ground Damage Enhancement (Small)",
+      "id": "BossDefeatReward_HerculesBeetle"
+    },
+    {
+      "name": "Water Damage Enhancement (Small)",
+      "id": "BossDefeatReward_SakuraSaurus_Water"
+    },
+    {
+      "name": "Dragon Damage Enhancement (Small)",
+      "id": "BossDefeatReward_FairyDragon"
+    },
+    {
+      "name": "Dragon Damage Enhancement (Small)",
+      "id": "BossDefeatReward_LazyDragon_Electric"
+    },
+    {
+      "name": "Electric Damage Enhancement (Small)",
+      "id": "BossDefeatReward_Kirin"
+    },
+    {
+      "name": "Grass Damage Enhancement (Small)",
+      "id": "BossDefeatReward_QueenBee"
+    },
+    {
+      "name": "Electric Damage Enhancement (Small)",
+      "id": "BossDefeatReward_GrassPanda_Electric"
+    },
+    {
+      "name": "Neutral Damage Enhancement (Small)",
+      "id": "BossDefeatReward_Mutant"
+    },
+    {
+      "name": "Grass Damage Enhancement (Small)",
+      "id": "BossDefeatReward_GrassRabbitMan"
+    },
+    {
+      "name": "Grass Damage Enhancement (Small)",
+      "id": "BossDefeatReward_Yeti_Grass"
+    },
+    {
+      "name": "Grass Damage Enhancement (Medium)",
+      "id": "BossDefeatReward_GrassMammoth"
+    },
+    {
+      "name": "Grass Damage Enhancement (Medium)",
+      "id": "BossDefeatReward_VioletFairy"
+    },
+    {
+      "name": "Ice Damage Enhancement (Small)",
+      "id": "BossDefeatReward_WhiteMoth"
+    },
+    {
+      "name": "Dark Damage Enhancement (Small)",
+      "id": "BossDefeatReward_DarkScorpion"
+    },
+    {
+      "name": "Fire Damage Enhancement (Large)",
+      "id": "BossDefeatReward_Suzaku"
+    },
+    {
+      "name": "Water Damage Enhancement (Medium)",
+      "id": "BossDefeatReward_Umihebi"
+    },
+    {
+      "name": "Ice Damage Enhancement (Medium)",
+      "id": "BossDefeatReward_KingAlpaca_Ice"
+    },
+    {
+      "name": "Electric Damage Enhancement (Small)",
+      "id": "BossDefeatReward_FlowerDinosaur_Electric"
+    },
+    {
+      "name": "Ground Damage Enhancement (Small)",
+      "id": "BossDefeatReward_Anubis"
+    },
+    {
+      "name": "Dragon Damage Enhancement (Medium)",
+      "id": "BossDefeatReward_BlackMetalDragon"
+    },
+    {
+      "name": "Fire Damage Enhancement (Large)",
+      "id": "BossDefeatReward_KingBahamut"
+    },
+    {
+      "name": "Dark Damage Enhancement (Small)",
+      "id": "BossDefeatReward_LilyQueen_Dark"
+    },
+    {
+      "name": "Ground Damage Enhancement (Small)",
+      "id": "BossDefeatReward_DarkScorpion_Ground"
+    },
+    {
+      "name": "Ground Damage Enhancement (Small)",
+      "id": "BossDefeatReward_WingGolem"
+    },
+    {
+      "name": "Dark Damage Enhancement (Small)",
+      "id": "BossDefeatReward_GrimGirl"
+    },
+    {
+      "name": "Electric Damage Enhancement (Medium)",
+      "id": "BossDefeatReward_BlueThunderHorse"
+    },
+    {
+      "name": "Dark Damage Enhancement (Small)",
+      "id": "BossDefeatReward_AmaterasuWolf_Dark"
+    },
+    {
+      "name": "Electric Damage Enhancement (Medium)",
+      "id": "BossDefeatReward_FengyunDeeper_Electric"
+    },
+    {
+      "name": "Neutral Damage Enhancement (Medium)",
+      "id": "BossDefeatReward_WhiteDeer"
+    },
+    {
+      "name": "Dragon Damage Enhancement (Medium)",
+      "id": "BossDefeatReward_WhiteShieldDragon"
+    },
+    {
+      "name": "Water Damage Enhancement (Medium)",
+      "id": "BossDefeatReward_Horus_Water"
+    },
+    {
+      "name": "Dragon Damage Enhancement (Large)",
+      "id": "BossDefeatReward_JetDragon"
+    },
+    {
+      "name": "Ice Damage Enhancement (Large)",
+      "id": "BossDefeatReward_IceHorse"
+    },
+    {
+      "name": "Neutral Damage Enhancement (Large)",
+      "id": "BossDefeatReward_SaintCentaur_1"
+    },
+    {
+      "name": "Dark Damage Enhancement (Small)",
+      "id": "BossDefeatReward_SaintCentaur_2"
+    },
+    {
+      "name": "Dark Damage Enhancement (Small)",
+      "id": "BossDefeatReward_BlackPuppy"
+    },
+    {
+      "name": "Dark Damage Enhancement (Small)",
+      "id": "BossDefeatReward_GhostRabbit"
+    },
+    {
+      "name": "Dark Damage Enhancement (Small)",
+      "id": "BossDefeatReward_NightBlueHorse"
+    },
+    {
+      "name": "Grass Damage Enhancement (Medium)",
+      "id": "BossDefeatReward_BlueberryFairy"
+    },
+    {
+      "name": "Dark Damage Enhancement (Small)",
+      "id": "BossDefeatReward_BadCatgirl"
+    },
+    {
+      "name": "Ground Damage Enhancement (Medium)",
+      "id": "BossDefeatReward_GoldenHorse"
+    },
+    {
+      "name": "Dark Damage Enhancement (Small)",
+      "id": "BossDefeatReward_MysteryMask"
+    },
+    {
+      "name": "Dark Damage Enhancement (Small)",
+      "id": "BossDefeatReward_PurpleSpider"
+    },
+    {
+      "name": "Dark Damage Enhancement (Small)",
+      "id": "BossDefeatReward_IceHorse_Dark"
+    },
+    {
+      "name": "Ice Damage Enhancement (Large)",
+      "id": "BossDefeatReward_Kitsunebi_Ice"
+    },
+    {
+      "name": "Dark Damage Enhancement (Small)",
+      "id": "BossDefeatReward_RaijinDaughter_Water"
+    },
+    {
+      "name": "Ground Damage Enhancement (Medium)",
+      "id": "BossDefeatReward_WhiteTiger_Ground"
+    },
+    {
+      "name": "Grass Damage Enhancement (Medium)",
+      "id": "BossDefeatReward_BerryGoat_Dark"
+    },
+    {
+      "name": "Ice Damage Enhancement (Large)",
+      "id": "BossDefeatReward_Werewolf_Ice"
+    },
+    {
+      "name": "Grass Damage Enhancement (Medium)",
+      "id": "BossDefeatReward_PinkRabbit_Grass"
+    },
+    {
+      "name": "Ground Damage Enhancement (Medium)",
+      "id": "BossDefeatReward_HerculesBeetle_Ground"
+    },
+    {
+      "name": "Ice Damage Enhancement (Large)",
+      "id": "BossDefeatReward_IceNarwhal"
+    },
+    {
+      "name": "Fire Damage Enhancement (Large)",
+      "id": "BossDefeatReward_IceNarwhal_Fire"
+    },
+    {
+      "name": "Water Damage Enhancement (Large)",
+      "id": "BossDefeatReward_PoseidonOrca"
+    },
+    {
+      "name": "Fire Damage Enhancement (Small)",
+      "id": "BossDefeatReward_FireKirin"
+    },
+    {
+      "name": "Ground Damage Enhancement (Small)",
+      "id": "BossDefeatReward_CubeTurtle"
+    },
+    {
+      "name": "Ground Damage Enhancement (Small)",
+      "id": "BossDefeatReward_VolcanicMonster"
+    },
+    {
+      "name": "Fire Damage Enhancement (Medium)",
+      "id": "BossDefeatReward_KabukiMan"
+    },
+    {
+      "name": "Ice Damage Enhancement (Medium)",
+      "id": "BossDefeatReward_VolcanoDragon_Ice"
+    },
+    {
+      "name": "Grass Damage Enhancement (Medium)",
+      "id": "BossDefeatReward_GrassGolem"
+    },
+    {
+      "name": "Grass Damage Enhancement (Small)",
+      "id": "BossDefeatReward_MushroomLady"
+    },
+    {
+      "name": "Dark Damage Enhancement (Medium)",
+      "id": "BossDefeatReward_WhiteDeer_Dark"
+    },
+    {
+      "name": "Ice Damage Enhancement (Medium)",
+      "id": "BossDefeatReward_RockBeast_Ice"
+    },
+    {
+      "name": "Water Damage Enhancement (Medium)",
+      "id": "BossDefeatReward_LotusDragon"
+    },
+    {
+      "name": "Fire Damage Enhancement (Medium)",
+      "id": "BossDefeatReward_FoxExorcist"
+    },
+    {
+      "name": "Electric Damage Enhancement (Small)",
+      "id": "BossDefeatReward_ThunderFluffyBird"
+    },
+    {
+      "name": "Electric Damage Enhancement (Small)",
+      "id": "BossDefeatReward_ElecLizard"
+    },
+    {
+      "name": "Electric Damage Enhancement (Small)",
+      "id": "BossDefeatReward_ElecSnail"
+    },
+    {
+      "name": "Dragon Damage Enhancement (Medium)",
+      "id": "BossDefeatReward_GhostDragon"
+    },
+    {
+      "name": "Grass Damage Enhancement (Large)",
+      "id": "BossDefeatReward_LilyQueen"
+    },
+    {
+      "name": "Electric Damage Enhancement (Medium)",
+      "id": "BossDefeatReward_ElecPanda"
+    },
+    {
+      "name": "Dark Damage Enhancement (Medium)",
+      "id": "BossDefeatReward_GrassGolem_Dark"
+    },
+    {
+      "name": "Fire Damage Enhancement (Small)",
+      "id": "BossDefeatReward_Manticore"
+    },
+    {
+      "name": "Fire Damage Enhancement (Small)",
+      "id": "BossDefeatReward_FlameBuffalo"
+    },
+    {
+      "name": "Ice Damage Enhancement (Small)",
+      "id": "BossDefeatReward_IceFox"
+    },
+    {
+      "name": "Fire Damage Enhancement (Small)",
+      "id": "BossDefeatReward_FoxMage"
+    },
+    {
+      "name": "Neutral Damage Enhancement (Medium)",
+      "id": "BossDefeatReward_CubeTurtle_Neutral"
+    },
+    {
+      "name": "Dark Damage Enhancement (Medium)",
+      "id": "BossDefeatReward_MoonChild"
+    },
+    {
+      "name": "Electric Damage Enhancement (Small)",
+      "id": "BossDefeatReward_ScorpionMan_Electric"
+    },
+    {
+      "name": "Ground Damage Enhancement (Medium)",
+      "id": "BossDefeatReward_RockBeast"
+    },
+    {
+      "name": "Fire Damage Enhancement (Small)",
+      "id": "BossDefeatReward_VolcanoDragon"
+    },
+    {
+      "name": "Grass Damage Enhancement (Small)",
+      "id": "BossDefeatReward_CactusDoll"
+    },
+    {
+      "name": "Dragon Damage Enhancement (Large)",
+      "id": "BossDefeatReward_DomeArmorDragon"
+    },
+    {
+      "name": "Pal Neutral Damage Enhancement Lv. 1",
+      "id": "ElementBoost_Normal_1_Otomo_Only_Equip"
+    },
+    {
+      "name": "Pal Fire Damage Enhancement Lv. 1",
+      "id": "ElementBoost_Fire_1_Otomo_Only_Equip"
+    },
+    {
+      "name": "Pal Water Damage Enhancement Lv. 1",
+      "id": "ElementBoost_Water_1_Otomo_Only_Equip"
+    },
+    {
+      "name": "Pal Electric Damage Enhancement Lv. 1",
+      "id": "ElementBoost_Electricity_1_Otomo_Only_Equip"
+    },
+    {
+      "name": "Pal Grass Damage Enhancement Lv. 1",
+      "id": "ElementBoost_Leaf_1_Otomo_Only_Equip"
+    },
+    {
+      "name": "Pal Ice Damage Enhancement Lv. 1",
+      "id": "ElementBoost_Ice_1_Otomo_Only_Equip"
+    },
+    {
+      "name": "Pal Ground Damage Enhancement Lv. 1",
+      "id": "ElementBoost_Earth_1_Otomo_Only_Equip"
+    },
+    {
+      "name": "Pal Dark Damage Enhancement Lv. 1",
+      "id": "ElementBoost_Dark_1_Otomo_Only_Equip"
+    },
+    {
+      "name": "Pal Dragon Damage Enhancement Lv. 1",
+      "id": "ElementBoost_Dragon_1_Otomo_Only_Equip"
+    },
+    {
+      "name": "Pal Neutral Damage Enhancement Lv. 2",
+      "id": "ElementBoost_Normal_2_Otomo_Only_Equip"
+    },
+    {
+      "name": "Pal Fire Damage Enhancement Lv. 2",
+      "id": "ElementBoost_Fire_2_Otomo_Only_Equip"
+    },
+    {
+      "name": "Pal Water Damage Enhancement Lv. 2",
+      "id": "ElementBoost_Water_2_Otomo_Only_Equip"
+    },
+    {
+      "name": "Pal Electric Damage Enhancement Lv. 2",
+      "id": "ElementBoost_Electricity_2_Otomo_Only_Equip"
+    },
+    {
+      "name": "Pal Grass Damage Enhancement Lv. 2",
+      "id": "ElementBoost_Leaf_2_Otomo_Only_Equip"
+    },
+    {
+      "name": "Pal Ice Damage Enhancement Lv. 2",
+      "id": "ElementBoost_Ice_2_Otomo_Only_Equip"
+    },
+    {
+      "name": "Pal Ground Damage Enhancement Lv. 2",
+      "id": "ElementBoost_Earth_2_Otomo_Only_Equip"
+    },
+    {
+      "name": "Pal Dark Damage Enhancement Lv. 2",
+      "id": "ElementBoost_Dark_2_Otomo_Only_Equip"
+    },
+    {
+      "name": "Pal Dragon Damage Enhancement Lv. 2",
+      "id": "ElementBoost_Dragon_2_Otomo_Only_Equip"
+    },
+    {
+      "name": "Pal Neutral Damage Enhancement Lv. 3",
+      "id": "ElementBoost_Normal_3_Otomo_Only_Equip"
+    },
+    {
+      "name": "Pal Fire Damage Enhancement Lv. 3",
+      "id": "ElementBoost_Fire_3_Otomo_Only_Equip"
+    },
+    {
+      "name": "Pal Water Damage Enhancement Lv. 3",
+      "id": "ElementBoost_Water_3_Otomo_Only_Equip"
+    },
+    {
+      "name": "Pal Electric Damage Enhancement Lv. 3",
+      "id": "ElementBoost_Electricity_3_Otomo_Only_Equip"
+    },
+    {
+      "name": "Pal Grass Damage Enhancement Lv. 3",
+      "id": "ElementBoost_Leaf_3_Otomo_Only_Equip"
+    },
+    {
+      "name": "Pal Ice Damage Enhancement Lv. 3",
+      "id": "ElementBoost_Ice_3_Otomo_Only_Equip"
+    },
+    {
+      "name": "Pal Ground Damage Enhancement Lv. 3",
+      "id": "ElementBoost_Earth_3_Otomo_Only_Equip"
+    },
+    {
+      "name": "Pal Dark Damage Enhancement Lv. 3",
+      "id": "ElementBoost_Dark_3_Otomo_Only_Equip"
+    },
+    {
+      "name": "Pal Dragon Damage Enhancement Lv. 3",
+      "id": "ElementBoost_Dragon_3_Otomo_Only_Equip"
+    },
+    {
+      "name": "Pal Neutral Damage Enhancement Lv. 4",
+      "id": "ElementBoost_Normal_4_Otomo_Only_Equip"
+    },
+    {
+      "name": "Pal Fire Damage Enhancement Lv. 4",
+      "id": "ElementBoost_Fire_4_Otomo_Only_Equip"
+    },
+    {
+      "name": "Pal Water Damage Enhancement Lv. 4",
+      "id": "ElementBoost_Water_4_Otomo_Only_Equip"
+    },
+    {
+      "name": "Pal Electric Damage Enhancement Lv. 4",
+      "id": "ElementBoost_Electricity_4_Otomo_Only_Equip"
+    },
+    {
+      "name": "Pal Grass Damage Enhancement Lv. 4",
+      "id": "ElementBoost_Leaf_4_Otomo_Only_Equip"
+    },
+    {
+      "name": "Pal Ice Damage Enhancement Lv. 4",
+      "id": "ElementBoost_Ice_4_Otomo_Only_Equip"
+    },
+    {
+      "name": "Pal Ground Damage Enhancement Lv. 4",
+      "id": "ElementBoost_Earth_4_Otomo_Only_Equip"
+    },
+    {
+      "name": "Pal Dark Damage Enhancement Lv. 4",
+      "id": "ElementBoost_Dark_4_Otomo_Only_Equip"
+    },
+    {
+      "name": "Pal Dragon Damage Enhancement Lv. 4",
+      "id": "ElementBoost_Dragon_4_Otomo_Only_Equip"
+    },
+    {
+      "name": "Pal Attack Up Lv. 1",
+      "id": "Attack_ACC_up1_Otomo_Only_Equip"
+    },
+    {
+      "name": "Pal Attack Up Lv. 2",
+      "id": "Attack_ACC_up2_Otomo_Only_Equip"
+    },
+    {
+      "name": "Pal Attack Up Lv. 3",
+      "id": "Attack_ACC_up3_Otomo_Only_Equip"
+    },
+    {
+      "name": "Pal Attack Up Lv. 4",
+      "id": "Attack_ACC_up4_Otomo_Only_Equip"
+    },
+    {
+      "name": "Pal Defense Up Lv. 1",
+      "id": "Defense_ACC_up1_Otomo_Only_Equip"
+    },
+    {
+      "name": "Pal Defense Up Lv. 2",
+      "id": "Defense_ACC_up2_Otomo_Only_Equip"
+    },
+    {
+      "name": "Pal Defense Up Lv. 3",
+      "id": "Defense_ACC_up3_Otomo_Only_Equip"
+    },
+    {
+      "name": "Pal Defense Up Lv. 4",
+      "id": "Defense_ACC_up4_Otomo_Only_Equip"
+    },
+    {
+      "name": "Pal EXP Up Lv. 1",
+      "id": "PalExp_Increase_1_Otomo_Only_Equip"
+    },
+    {
+      "name": "Pal EXP Up Lv. 2",
+      "id": "PalExp_Increase_2_Otomo_Only_Equip"
+    },
+    {
+      "name": "Pal EXP Up Lv. 3",
+      "id": "PalExp_Increase_3_Otomo_Only_Equip"
+    },
+    {
+      "name": "Lunker",
+      "id": "Nushi"
+    },
+    {
+      "name": "Sleek Stroke",
+      "id": "SwimSpeed_up_1"
+    },
+    {
+      "name": "Ace Swimmer",
+      "id": "SwimSpeed_up_2"
+    },
+    {
+      "name": "King of the Waves",
+      "id": "SwimSpeed_up_3"
+    },
+    {
+      "name": "Hallowed Guard",
+      "id": "YakushimaProtection_Equip"
+    },
+    {
+      "name": "Hallowed Power: Close Range",
+      "id": "YakushimaDagameBoost_Melee_Equip"
+    },
+    {
+      "name": "Hallowed Power: Ranged",
+      "id": "YakushimaDagameBoost_Ranged_Equip"
+    },
+    {
+      "name": "Hallowed Power: Magic",
+      "id": "YakushimaDagameBoost_Magic_Equip"
+    },
+    {
+      "name": "Hallowed Power: Summon",
+      "id": "YakushimaDagameBoost_Summon_Equip"
+    },
+    {
+      "name": "Rayne Syndicate Boss",
+      "id": "GYM_NAME_Meadow"
+    },
+    {
+      "name": "Free Pal Alliance Founder",
+      "id": "GYM_NAME_Forest"
+    },
+    {
+      "name": "PIDF Commander",
+      "id": "GYM_NAME_Desert"
+    },
+    {
+      "name": "Brothers of the Eternal Pyre Soul Leader",
+      "id": "GYM_NAME_Volcano"
+    },
+    {
+      "name": "PAL Genetic Research Unit Commander",
+      "id": "GYM_NAME_Snow"
+    },
+    {
+      "name": "Leader of the Moonflowers",
+      "id": "GYM_NAME_Sakurajima"
+    },
+    {
+      "name": "Jarl of Feybreak ",
+      "id": "GYM_NAME_Viking"
+    },
+    {
+      "name": "Savior",
+      "id": "Salvation"
+    },
+    {
+      "name": "Blood Is Fuel",
+      "id": "OctaviaArmorVampire"
+    },
+    {
+      "name": "Twin-Edged Holy Blade",
+      "id": "WorldTree_ATK"
+    },
+    {
+      "name": "Sanctified Meat Shield",
+      "id": "WorldTree_DEF"
+    },
+    {
+      "name": "World Tree Seedbed",
+      "id": "WorldTree_FullStomach"
+    },
+    {
+      "name": "Hermit Sage",
+      "id": "WorldTree_Sanity"
+    },
+    {
+      "name": "Dimensional Leap",
+      "id": "WorldTree_MoveSpeed"
+    },
+    {
+      "name": "God of Destruction",
+      "id": "WorldTree_ATK_DEF"
+    },
+    {
+      "name": "Whopper",
+      "id": "MiniNushi"
+    },
+    {
+      "name": "Heavyweight",
+      "id": "Deffence_up2_2"
+    },
+    {
+      "name": "Babysitter",
+      "id": "MutationPal_Babysitter"
+    },
+    {
+      "name": "Idiosyncratic",
+      "id": "MutationPal_Mutant"
+    },
+    {
+      "name": "Night Owl",
+      "id": "NightOwl"
+    },
+    {
+      "name": "Explosion Immunity",
+      "id": "Defuser_ExplosiveSpore_EquipSkill"
+    },
+    {
+      "name": "Extended Dodge Immunity",
+      "id": "AvoidDurationUp_EquipSkill_2"
+    },
+    {
+      "name": "Sharing is Caring",
+      "id": "SelfDeathAddItemDrop_up_1"
+    },
+    {
+      "name": "Service-Minded",
+      "id": "SelfDeathAddItemDrop_up_2"
+    },
+    {
+      "name": "Lavish Hospitality",
+      "id": "SelfDeathAddItemDrop_up_3"
+    },
+    {
+      "name": "Farmhand",
+      "id": "WorkSuitabilityAddRank_MonsterFarm_1"
+    },
+    {
+      "name": "Ranch Master",
+      "id": "WorkSuitabilityAddRank_MonsterFarm_2"
+    },
+    {
+      "name": "Immortality",
+      "id": "MutationPal_Immortal"
+    },
+    {
+      "name": "Heavily Armored",
+      "id": "MutationPal_ExplosionResist"
+    },
+    {
+      "name": "Logging Yield Up Lv. 1",
+      "id": "WoodDrop_Boost_1"
+    },
+    {
+      "name": "Logging Yield Up Lv. 2",
+      "id": "WoodDrop_Boost_2"
+    },
+    {
+      "name": "Logging Yield Up Lv. 3",
+      "id": "WoodDrop_Boost_3"
+    },
+    {
+      "name": "Logging Yield Up Lv. 4",
+      "id": "WoodDrop_Boost_4"
+    },
+    {
+      "name": "Logging Yield Up Lv. 5",
+      "id": "WoodDrop_Boost_5"
+    },
+    {
+      "name": "Mining Yield Up Lv. 1",
+      "id": "StonDrop_Boost_1"
+    },
+    {
+      "name": "Mining Yield Up Lv. 2",
+      "id": "StonDrop_Boost_2"
+    },
+    {
+      "name": "Mining Yield Up Lv. 3",
+      "id": "StonDrop_Boost_3"
+    },
+    {
+      "name": "Mining Yield Up Lv. 4",
+      "id": "StonDrop_Boost_4"
+    },
+    {
+      "name": "Mining Yield Up Lv. 5",
+      "id": "StonDrop_Boost_5"
+    },
+    {
+      "name": "Logging/Mining Yield Up",
+      "id": "StonWoodDrop_Boost"
+    },
+    {
+      "name": "Lightfooted",
+      "id": "RideJumpCount_Increase1"
+    },
+    {
+      "name": "Skymarcher",
+      "id": "RideJumpCount_Increase2"
+    },
+    {
+      "name": "Party Pals Bond Boost",
+      "id": "FriendshipPoint_Increase_EquipSkill"
+    },
+    {
+      "name": "Toxic Gas Immunity",
+      "id": "Invalid_ToxicGas_EquipSkill"
+    },
+    {
+      "name": "Wellness Watcher",
+      "id": "PlayerSP_DecreaseRate_Passive"
+    },
+    {
+      "name": "Healing Coach",
+      "id": "AutoHPRegeneRate_Passive"
+    },
+    {
+      "name": "Reload Master",
+      "id": "ReloadSpeedUp_Passive"
+    }
+  ]
+}
